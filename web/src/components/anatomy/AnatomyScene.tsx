@@ -44,7 +44,10 @@ function Body({sex,onHover,useFullBody,bodyLoaded,onBodyLoaded}:{sex:BiologicalS
 }
 export function AnatomyScene({sex}:{sex:BiologicalSex}){
  const [hovered,setHovered]=useState<string|null>(null); const [bodyAvailable,setBodyAvailable]=useState(false); const [bodyLoaded,setBodyLoaded]=useState(false); const selected=useExplorerStore((s)=>s.organ); const modelUrl=MODEL_BASE ? `${MODEL_BASE}/${sex}` : FULL_BODY_STATIC[sex];
- useEffect(()=>{const ac=new AbortController(); setBodyLoaded(false); fetch(modelUrl,{method:'HEAD',signal:ac.signal}).then((r)=>setBodyAvailable(r.ok)).catch(()=>setBodyAvailable(false));return()=>ac.abort()},[modelUrl]);
+ // The NIH file endpoint serves the GLB through GET but does not reliably
+ // answer cross-origin HEAD requests.  Do not use a HEAD preflight to decide
+ // whether the model exists; let drei load the verified public asset directly.
+ useEffect(()=>{setBodyLoaded(false);setBodyAvailable(true)},[modelUrl]);
  const laterality = selected?.sex===sex && selected.organKey==='kidney' ? selected.laterality : 'left'; const label=hovered ? (ORGAN_REGISTRY.find((x)=>x.organKey===hovered)?.organLabel ?? hovered) : null; const markBodyLoaded=useCallback(()=>setBodyLoaded(true),[]);
  return <div className="anatomy-canvas" aria-label={`${sex} anatomy viewer`}><Canvas camera={{position:[0,0,sex==='male'?5.4:5],fov:40}} dpr={[1,1.5]}><ambientLight intensity={1.2}/><directionalLight position={[3,4,5]} intensity={2}/><Environment preset="city"/><Body sex={sex} onHover={setHovered} useFullBody={bodyAvailable} bodyLoaded={bodyLoaded} onBodyLoaded={markBodyLoaded}/><OrbitControls enablePan={true} mouseButtons={{LEFT:MOUSE.PAN,MIDDLE:MOUSE.DOLLY,RIGHT:MOUSE.ROTATE}} minDistance={3.2} maxDistance={9}/>{label && <Html position={[0,2.25,0]} center><div className="tooltip">{label} · {sex === 'male' ? 'Male' : 'Female'}{hovered==='kidney' ? ` · ${laterality === 'right' ? 'Right' : 'Left'}`:''}</div></Html>}</Canvas></div>;
 }
