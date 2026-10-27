@@ -2,9 +2,10 @@ import {useEffect, useState} from 'react';
 import {useExplorerStore} from '../../store/selection';
 import type {ExpressionResponse} from '../../types/hra';
 import {AnatomyModelCanvas, type AnatomyStats} from './AnatomyModelCanvas';
+import {staticAsset} from '../../utils/staticAsset';
 
 const API_BASE=import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8000';
-const STATIC_EXPRESSION_URL=`${import.meta.env.BASE_URL}data/expression.json`;
+const STATIC_EXPRESSION_URL=staticAsset('data/expression.json');
 
 function Legend({range}:{range:{min:number|null;max:number|null}}){return <div className="legend"><div className="viridis-strip"/><div><small>{range.min ?? '—'}</small><small>{range.max ?? '—'}</small></div></div>}
 
