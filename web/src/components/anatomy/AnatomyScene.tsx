@@ -7,14 +7,14 @@ import {ORGAN_REGISTRY, contextFor} from '../../data/organRegistry';
 import {useExplorerStore} from '../../store/selection';
 
 const MODEL_BASE=import.meta.env.VITE_MODEL_BASE_URL;
-// The whole-body GLBs are too large for a normal GitHub repository.  They are
-// published by the NIH 3D API and can be loaded directly by the public Pages
-// site; a configured local API remains available for development.
-const FULL_BODY_STATIC: Record<BiologicalSex,string> = {
-  male: 'https://3d.nih.gov/api/submissions/43533/runs/2e6aa272-2f98-4f9e-b73d-74cdc80e0895/output-files/2111474',
-  female: 'https://3d.nih.gov/api/submissions/43503/runs/c72da12e-7488-4b82-9da2-78ecd0cc0d0f/output-files/2111062',
-};
 const STATIC_BASE=import.meta.env.BASE_URL;
+// The whole-body GLBs are too large for a normal GitHub repository.  They are
+// compressed for same-origin GitHub Pages hosting; a configured local API
+// remains available for development.
+const FULL_BODY_STATIC: Record<BiologicalSex,string> = {
+  male: `${STATIC_BASE}models/hra-reference-organ-united-male-v1.5.glb`,
+  female: `${STATIC_BASE}models/hra-reference-organ-united-female-v1.5.glb`,
+};
 const placements: Record<string,[number,number,number]> = {pancreas:[0.25,-0.2,0.45],skin:[0,0,0],eye:[0,1.72,0.38],'large-intestine':[0,-0.8,0.38],'small-intestine':[0,-0.38,0.42],kidney:[1.05,0.3,0.35],'lymph-node':[-0.7,0.2,0.38],'spinal-cord':[0,0.3,-0.12],brain:[0,1.72,0.38]};
 function OrganMesh({organKey, sex, laterality, onHover}:{organKey:string;sex:BiologicalSex;laterality:Laterality;onHover:(k:string|null)=>void}){
  const o=ORGAN_REGISTRY.find((x)=>x.organKey===organKey)!; const selectOrgan=useExplorerStore((s)=>s.selectOrgan); const selected=useExplorerStore((s)=>s.organ); const position=placements[organKey] ?? [0,0,0]; const isSelected=selected?.organKey===organKey&&selected.sex===sex&&selected.laterality===laterality;
