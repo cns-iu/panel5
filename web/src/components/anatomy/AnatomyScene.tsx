@@ -5,15 +5,15 @@ import {Suspense, useCallback, useEffect, useMemo, useState} from 'react';
 import type {BiologicalSex, Laterality} from '../../types/hra';
 import {ORGAN_REGISTRY, contextFor} from '../../data/organRegistry';
 import {useExplorerStore} from '../../store/selection';
+import {staticAsset} from '../../utils/staticAsset';
 
 const MODEL_BASE=import.meta.env.VITE_MODEL_BASE_URL;
-const STATIC_BASE=import.meta.env.BASE_URL;
 // The whole-body GLBs are too large for a normal GitHub repository.  They are
 // compressed for same-origin GitHub Pages hosting; a configured local API
 // remains available for development.
 const FULL_BODY_STATIC: Record<BiologicalSex,string> = {
-  male: `${STATIC_BASE}models/hra-reference-organ-united-male-v1.5.glb`,
-  female: `${STATIC_BASE}models/hra-reference-organ-united-female-v1.5.glb`,
+  male: staticAsset('models/hra-reference-organ-united-male-v1.5.glb'),
+  female: staticAsset('models/hra-reference-organ-united-female-v1.5.glb'),
 };
 const placements: Record<string,[number,number,number]> = {pancreas:[0.25,-0.2,0.45],skin:[0,0,0],eye:[0,1.72,0.38],'large-intestine':[0,-0.8,0.38],'small-intestine':[0,-0.38,0.42],kidney:[1.05,0.3,0.35],'lymph-node':[-0.7,0.2,0.38],'spinal-cord':[0,0.3,-0.12],brain:[0,1.72,0.38]};
 function OrganMesh({organKey, sex, laterality, onHover}:{organKey:string;sex:BiologicalSex;laterality:Laterality;onHover:(k:string|null)=>void}){
@@ -25,7 +25,7 @@ function OrganMesh({organKey, sex, laterality, onHover}:{organKey:string;sex:Bio
  </mesh>;
 }
 function ReferenceKidneyModel({sex,laterality,onSelect}:{sex:BiologicalSex;laterality:Laterality;onSelect:()=>void}){
- const url=`${STATIC_BASE}models/kidney-${sex}-${laterality}-v1.3.glb`; const {scene}=useGLTF(url); const cloned=useMemo(()=>scene.clone(true),[scene]); const x=laterality==='right'?1.05:-1.05;
+ const url=staticAsset(`models/kidney-${sex}-${laterality}-v1.3.glb`); const {scene}=useGLTF(url); const cloned=useMemo(()=>scene.clone(true),[scene]); const x=laterality==='right'?1.05:-1.05;
  return <primitive object={cloned} position={[x,.3,.48]} scale={3.5} onClick={(e:any)=>{e.stopPropagation();onSelect()}} userData={{source:'HRA sceneNodeLookup',sex,laterality}}/>;
 }
 function nodeOrgan(name:string){const n=name.toLowerCase(); if(n.includes('pancreas'))return 'pancreas'; if(n.includes('skin'))return 'skin'; if(n.includes('eye'))return 'eye'; if(n.includes('large_intestine')||n.includes('colon'))return 'large-intestine'; if(n.includes('small_intestine'))return 'small-intestine'; if(n.includes('kidney'))return 'kidney'; if(n.includes('lymph_node'))return 'lymph-node'; if(n.includes('spinal_cord'))return 'spinal-cord'; if(n.includes('brain'))return 'brain'; return null;}
