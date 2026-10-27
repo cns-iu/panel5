@@ -1,0 +1,2 @@
+import {test,expect} from '@playwright/test';
+test('kidney selection filters FTUs',async({page})=>{await page.goto('/');await expect(page.getByTestId('reference-organ-kidney')).toBeVisible();await page.getByTestId('reference-organ-kidney').click();await expect(page.locator('#explore')).toBeVisible();await expect(page.locator('.official-ftu-host')).toBeVisible({timeout:30000});await expect(page.locator('hra-ftu-ui')).toHaveCount(1);});

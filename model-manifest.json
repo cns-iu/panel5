@@ -1,0 +1,94 @@
+{
+  "status": "verified-kidney-and-full-body-assets",
+  "retrievalDate": "2026-10-26",
+  "models": [
+    {
+      "sex": "female",
+      "laterality": "left",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-left/v1.3/assets/3d-vh-f-kidney-l.glb",
+      "asset": "kidney-female-left-v1.3.glb",
+      "sha256": "58f0227d45b14d7bcfd2ed05a7bcd76000051ea08d52f844feebd70d612f8084",
+      "bytes": 1356736,
+      "license": "CC BY 4.0; verify per release asset page",
+      "meshOntologyCoverage": "sceneNodeLookup v1.3; representation_of crosswalk recorded in data/processed/expression.json"
+    },
+    {
+      "sex": "female",
+      "laterality": "right",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-female-right/v1.3/assets/3d-vh-f-kidney-r.glb",
+      "asset": "kidney-female-right-v1.3.glb",
+      "sha256": "d80ee5a109a5cd5c90ca0770d1087e28786e2c545747cbae15a5ea22b4b0af86",
+      "bytes": 1383740,
+      "license": "CC BY 4.0; verify per release asset page",
+      "meshOntologyCoverage": "sceneNodeLookup v1.3; representation_of crosswalk recorded in data/processed/expression.json"
+    },
+    {
+      "sex": "male",
+      "laterality": "left",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-left/v1.3/assets/3d-vh-m-kidney-l.glb",
+      "asset": "kidney-male-left-v1.3.glb",
+      "sha256": "1e9f54281652d0b05c9ae54a06380a41a8d9c62c1036829180750995b1730fac",
+      "bytes": 1536980,
+      "license": "CC BY 4.0; verify per release asset page",
+      "meshOntologyCoverage": "sceneNodeLookup v1.3; representation_of crosswalk recorded in data/processed/expression.json"
+    },
+    {
+      "sex": "male",
+      "laterality": "right",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/kidney-male-right/v1.3/assets/3d-vh-m-kidney-r.glb",
+      "asset": "kidney-male-right-v1.3.glb",
+      "sha256": "f23bac3f62fd050b689bdee86bb8a20bff6997e830cb508c847f74c03c6a964b",
+      "bytes": 1547360,
+      "license": "CC BY 4.0; verify per release asset page",
+      "meshOntologyCoverage": "sceneNodeLookup v1.3; representation_of crosswalk recorded in data/processed/expression.json"
+    }
+  ],
+  "fullBodyModels": [
+    {
+      "sex": "male",
+      "nihEntry": "https://3d.nih.gov/entries/3DPX-021022",
+      "url": "https://3d.nih.gov/api/submissions/43533/runs/2e6aa272-2f98-4f9e-b73d-74cdc80e0895/output-files/2111474",
+      "asset": "hra-reference-organ-united-male-v1.5.glb",
+      "sha256": "cb0bcd0881a0a7df8c905bdf6863a7ddc009a2cff9631f335a0619092445da28",
+      "bytes": 143119784,
+      "license": "CC BY 4.0 (NIH 3D entry)",
+      "nodeCount": 1035,
+      "meshCount": 849
+    },
+    {
+      "sex": "female",
+      "nihEntry": "https://3d.nih.gov/entries/3DPX-020992",
+      "url": "https://3d.nih.gov/api/submissions/43503/runs/c72da12e-7488-4b82-9da2-78ecd0cc0d0f/output-files/2111062",
+      "asset": "hra-reference-organ-united-female-v1.5.glb",
+      "sha256": "4a7e67902746181b5797c487588d90b9e46532117f706661eca83d674bb9199c",
+      "bytes": 202535180,
+      "license": "CC BY 4.0 (NIH 3D entry)",
+      "nodeCount": 1073,
+      "meshCount": 888
+    }
+  ],
+  "sectionCOrganModels": [
+    {
+      "organKey": "large-intestine",
+      "sex": "male",
+      "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-male/v1.3/assets/3d-sbu-m-large-intestine.glb",
+      "asset": "large-intestine-male-v1.3.glb",
+      "sha256": "908a5c38bf14574a673f2d2619502281f7f9e47c46c4eba837aae2e80e38c489",
+      "bytes": 687076,
+      "nodeCount": 11,
+      "meshCount": 10
+    },
+    {
+      "organKey": "large-intestine",
+      "sex": "female",
+      "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+      "url": "https://cdn.humanatlas.io/digital-objects/ref-organ/large-intestine-female/v1.3/assets/3d-sbu-f-large-intestine.glb",
+      "asset": "large-intestine-female-v1.3.glb",
+      "sha256": "b3046d2af718e7f031578db4089a9f4bea707aa4a75af98aab78f172c2f53d74",
+      "bytes": 387376,
+      "nodeCount": 11,
+      "meshCount": 10
+    }
+  ]
+}

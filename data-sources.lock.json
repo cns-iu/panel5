@@ -1,0 +1,41 @@
+{
+  "retrievalDate": "2026-10-26",
+  "status": "verified-live-probe-and-local-snapshots",
+  "sources": [
+    {
+      "name": "FTU illustrations API",
+      "url": "https://apps.humanatlas.io/api/v1/ftu-illustrations",
+      "version": "live snapshot 2026-10-26",
+      "license": "CC BY 4.0",
+      "sha256": "08652e44ab75320a9dc36ca20e70937cce465e055cfa270688a9d0e2d41e85db",
+      "schemaVersion": "JSON-LD @graph; 28 items; 8 kidney",
+      "contentLength": 2017166
+    },
+    {
+      "name": "RUI reference data",
+      "url": "https://apps.humanatlas.io/api/v1/rui-reference-data",
+      "version": "live snapshot 2026-10-26",
+      "license": "HRA release terms (verify per release)",
+      "sha256": "9000a886b0f28164d9044c751d57610a6772cd72ceb476661d0adf0a608039e4",
+      "schemaVersion": "sceneNodeLookup 1906; organIRILookup present",
+      "contentLength": 6031261
+    },
+    {
+      "name": "HRApop AS\u00d7CT\u00d7gene report",
+      "url": "https://github.com/x-atlas-consortia/hra-pop/raw/refs/heads/main/output-data/v1.1/reports/atlas-ad-hoc/datasets-as-ct-gene.csv.gz",
+      "version": "v1.1 live snapshot 2026-10-26",
+      "license": "Verify upstream repository",
+      "sha256": "ee32aed7d607071330f5ddba524034a19c8e69f8cd7779d49fd8640d5e2d72bd",
+      "schemaVersion": "10 columns; 589550 rows; 14 XIAP rows",
+      "contentLength": 11962072
+    },
+    {
+      "name": "HRA 3D reference models",
+      "url": "https://humanatlas.io/3d-reference-library",
+      "version": "ref-organ v1.3 kidney assets",
+      "license": "CC BY 4.0 (verify per model)",
+      "sha256": null,
+      "schemaVersion": "gltf-binary; four side/sex-specific kidney files"
+    }
+  ]
+}

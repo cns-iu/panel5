@@ -1,0 +1,2938 @@
+{
+  "kidney|XIAP|female|left": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "left",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.4,
+    "max": 1.4,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "label": "Left kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 31,
+      "nodesWithData": 12,
+      "nodesWithoutData": 19
+    }
+  },
+  "kidney|XIAP|female|right": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "right",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.4,
+    "max": 1.4,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004539",
+        "label": "Right kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_kidney_capsule_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_hilum_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_outer_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_column_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_medulla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 29,
+      "nodesWithData": 11,
+      "nodesWithoutData": 18
+    }
+  },
+  "kidney|XIAP|male|left": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "left",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.4,
+    "max": 1.4,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "label": "Left kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_kidney_capsule_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_hilum_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_column_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_outer_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_medulla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 27,
+      "nodesWithData": 10,
+      "nodesWithoutData": 17
+    }
+  },
+  "kidney|XIAP|male|right": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "right",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.4,
+    "max": 1.4,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004539",
+        "label": "Right kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 1.4,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 29,
+      "nodesWithData": 11,
+      "nodesWithoutData": 18
+    }
+  },
+  "large-intestine|XIAP|female|midline": {
+    "organKey": "large-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.023597240447998,
+    "max": 1.989291191101074,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000059",
+        "label": "large intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0022277",
+        "label": "hepatic flexure of colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001157",
+        "label": "transverse colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001156",
+        "label": "ascending colon",
+        "meanExpr": 1.989291191101074,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001154",
+        "label": "vermiform appendix",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001158",
+        "label": "descending colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000569",
+        "label": "ileocecal valve",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001153",
+        "label": "caecum",
+        "meanExpr": 1.023597240447998,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001052",
+        "label": "rectum",
+        "meanExpr": 1.103525638580322,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001159",
+        "label": "sigmoid colon",
+        "meanExpr": 1.103525638580322,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0022276",
+        "label": "splenic flexure of colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 11,
+      "nodesWithData": 4,
+      "nodesWithoutData": 7
+    }
+  },
+  "large-intestine|XIAP|male|midline": {
+    "organKey": "large-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.023597240447998,
+    "max": 1.989291191101074,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000059",
+        "label": "large intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001156",
+        "label": "ascending colon",
+        "meanExpr": 1.989291191101074,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001158",
+        "label": "descending colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0022277",
+        "label": "hepatic flexure of colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001052",
+        "label": "rectum",
+        "meanExpr": 1.103525638580322,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001159",
+        "label": "sigmoid colon",
+        "meanExpr": 1.103525638580322,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0022276",
+        "label": "splenic flexure of colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001157",
+        "label": "transverse colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000569",
+        "label": "ileocecal valve",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001153",
+        "label": "caecum",
+        "meanExpr": 1.023597240447998,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001154",
+        "label": "vermiform appendix",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 11,
+      "nodesWithData": 4,
+      "nodesWithoutData": 7
+    }
+  },
+  "liver|XIAP|female|midline": {
+    "organKey": "liver",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": null,
+    "max": null,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002107",
+        "label": "liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_gastric_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14487",
+        "label": "gastric impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_suprarenal_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14489",
+        "label": "suprarenal impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_renal_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14488",
+        "label": "renal impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_duodenal_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14485",
+        "label": "duodenal impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_esophageal_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14486",
+        "label": "esophageal impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_porta_hepatis",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15758",
+        "label": "porta hepatis",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_colic_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14484",
+        "label": "colic impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_capsule_of_the_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0016479",
+        "label": "capsule of the liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_bare_area_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001149",
+        "label": "bare area of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_diaphragmatic_surface_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15729",
+        "label": "diaphragmatic surface of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_left_lobe_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001115",
+        "label": "left lobe of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_liver_left_lateral_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0006727",
+        "label": "liver left lateral lobe",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_liver_left_medial_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0006728",
+        "label": "liver left medial lobe",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_quadrate_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001116",
+        "label": "quadrate lobe of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_right_lobe_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001114",
+        "label": "right lobe of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_caudate_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001117",
+        "label": "caudate lobe of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_coronary_ligament_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013138",
+        "label": "coronary ligament of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_falciform_ligament",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001247",
+        "label": "falciform ligament",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_triangular_ligament_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0035444",
+        "label": "triangular ligament of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_ligamentum_venosum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0006587",
+        "label": "ligamentum venosum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_round_ligament_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0006588",
+        "label": "round ligament of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-female/v1.2#VH_F_hepataduodenal_ligament",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0012472",
+        "label": "hepatoduodenal ligament",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 23,
+      "nodesWithData": 0,
+      "nodesWithoutData": 23
+    }
+  },
+  "liver|XIAP|male|midline": {
+    "organKey": "liver",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": null,
+    "max": null,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002107",
+        "label": "liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_bare_area_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001149",
+        "label": "bare area of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_liver_capsule",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0016479",
+        "label": "capsule of the liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_diaphragmatic_surface",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15729",
+        "label": "diaphragmatic surface of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_suprarenal_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14489",
+        "label": "suprarenal impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_renal_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14488",
+        "label": "renal impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_gastric_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14487",
+        "label": "gastric impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_colic_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14484",
+        "label": "colic impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_esophageal_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14486",
+        "label": "esophageal impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_duodenal_impression_of_liver",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14485",
+        "label": "duodenal impression of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_porta_hepatis",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15758",
+        "label": "porta hepatis",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_caudate_lobe_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001117",
+        "label": "caudate lobe of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_right_lobe_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001114",
+        "label": "right lobe of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lobe_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001115",
+        "label": "left lobe of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_lateral_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0006727",
+        "label": "liver left lateral lobe",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_left_medial_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0006728",
+        "label": "liver left medial lobe",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_quadrate_lobe_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001116",
+        "label": "quadrate lobe of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_hepataduodenal_ligament",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0012472",
+        "label": "hepatoduodenal ligament",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_ligamentum_venosum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0006587",
+        "label": "ligamentum venosum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_round_ligament_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0006588",
+        "label": "round ligament of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_triangular_ligament_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0035444",
+        "label": "triangular ligament of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_falciform_ligament",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001247",
+        "label": "falciform ligament",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/liver-male/v1.2#VH_M_coronary_ligament_of_liver",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013138",
+        "label": "coronary ligament of liver",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 23,
+      "nodesWithData": 0,
+      "nodesWithoutData": 23
+    }
+  },
+  "lung|XIAP|female|midline": {
+    "organKey": "lung",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 0.6187247037887573,
+    "max": 0.6187247037887573,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001004",
+        "label": "lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_lungs",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002048",
+        "label": "lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_bronchi",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002185",
+        "label": "bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_cartilage_of_lobar_bronchus_L",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma62659",
+        "label": "cartilage of lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_cartilage_of_tertiary_bronchus_L",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma62662",
+        "label": "cartilage of segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_lobar_bronchi_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0003405",
+        "label": "lobar bronchus of left lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_superior_lobar_bronchus",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0012065",
+        "label": "lobar bronchus of left lung upper lobe",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_inferior_lobar_bronchus",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0012066",
+        "label": "lobar bronchus of left lung lower lobe",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_tertiary_bronchi_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002184",
+        "label": "segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_anterior_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7506",
+        "label": "left anterior basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_lingula_superior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7430",
+        "label": "superior lingular bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_apical_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7426",
+        "label": "left apical segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_posterior_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7508",
+        "label": "left posterior basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_medial_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7505",
+        "label": "left medial basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_superior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7504",
+        "label": "left superior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_anterior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7428",
+        "label": "left anterior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_posterior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7427",
+        "label": "left posterior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_lateral_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7507",
+        "label": "left lateral basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_lingula_inferior_bronchi",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7431",
+        "label": "inferior lingular bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_cartilage_of_lobar_bronchus_R",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma62659",
+        "label": "cartilage of lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_cartilage_of_tertiary_bronchus_R",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma62662",
+        "label": "cartilage of segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_lobar_bronchus_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0003404",
+        "label": "lobar bronchus of right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_middle_lobar_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7401",
+        "label": "middle lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_superior_lobar_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7397",
+        "label": "right superior lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_inferior_lobar_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7404",
+        "label": "right inferior lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_tertiary_bronchi_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002184",
+        "label": "segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_anterior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7400",
+        "label": "right anterior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_lateral_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7419",
+        "label": "right lateral basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_lateral_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7402",
+        "label": "lateral segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_medial_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7403",
+        "label": "medial segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_medial_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7417",
+        "label": "right medial basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_posterior_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7420",
+        "label": "right posterior basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_posterior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7399",
+        "label": "right posterior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_superior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7416",
+        "label": "right superior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_apical_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7398",
+        "label": "right apical segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_anterior_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7418",
+        "label": "right anterior basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_lungs_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002168",
+        "label": "left lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_hilum_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004887",
+        "label": "left lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_L_lung_upper_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008952",
+        "label": "upper lobe of left lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_hilum_upper_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004887",
+        "label": "left lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_lingula_superior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7374",
+        "label": "superior lingular bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_anterior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7373",
+        "label": "left anterior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_apical_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7385",
+        "label": "left apical bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_posterior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7386",
+        "label": "left posterior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_lingula_inferior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7375",
+        "label": "inferior lingular bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_L_lung_lower_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008953",
+        "label": "lower lobe of left lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_superior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7376",
+        "label": "left superior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_posterior_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7380",
+        "label": "left posterior basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_anterior_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7378",
+        "label": "left anterior basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_lateral_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7379",
+        "label": "left lateral basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_left_medial_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7377",
+        "label": "left medial basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_hilum_lower_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004887",
+        "label": "left lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_lungs_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002167",
+        "label": "right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_hilum_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004888",
+        "label": "right lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_R_lung_lower_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002171",
+        "label": "lower lobe of right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_medial_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7365",
+        "label": "right medial basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_posterior_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7362",
+        "label": "right posterior basal bronchopulmonary segment",
+        "meanExpr": 0.6187247037887573,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_anterior_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7364",
+        "label": "right anterior basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_lateral_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7363",
+        "label": "right lateral basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_superior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7366",
+        "label": "right superior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_hilum_lower_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004888",
+        "label": "right lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_R_lung_middle_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002174",
+        "label": "middle lobe of right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_medial_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7360",
+        "label": "right medial bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_lateral_bronchopulmonary_segmennt",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7361",
+        "label": "right lateral bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_hilum_middle_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004888",
+        "label": "right lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_R_lung_upper_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002170",
+        "label": "upper lobe of right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_anterior_bronchopulmonary_segm",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7359",
+        "label": "right anterior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_apical_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7338",
+        "label": "right apical bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_right_posterior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7339",
+        "label": "right posterior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-female/v1.4#VH_F_hilum_upper_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004888",
+        "label": "right lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 70,
+      "nodesWithData": 1,
+      "nodesWithoutData": 69
+    }
+  },
+  "lung|XIAP|male|midline": {
+    "organKey": "lung",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 0.6187247037887573,
+    "max": 0.6187247037887573,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001004",
+        "label": "lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lungs",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002048",
+        "label": "lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lungs_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002168",
+        "label": "left lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_hilum_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004887",
+        "label": "left lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lungs_L_upper_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008952",
+        "label": "upper lobe of left lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_hilum_upper_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004887",
+        "label": "left lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_lingula_superior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7374",
+        "label": "superior lingular bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_posterior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7386",
+        "label": "left posterior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_anterior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7373",
+        "label": "left anterior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_apical_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7385",
+        "label": "left apical bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_lingula_inferior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7375",
+        "label": "inferior lingular bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lungs_L_lower_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008953",
+        "label": "lower lobe of left lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_hilum_lower_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004887",
+        "label": "left lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_anterior_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7378",
+        "label": "left anterior basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_lateral_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7379",
+        "label": "left lateral basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_medial_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7377",
+        "label": "left medial basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_posetrior_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7508",
+        "label": "left posterior basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_superior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7376",
+        "label": "left superior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lungs_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002167",
+        "label": "right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_hilum_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004888",
+        "label": "right lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lungs_R_middle_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002174",
+        "label": "middle lobe of right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_lateral_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7361",
+        "label": "right lateral bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_medial_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7360",
+        "label": "right medial bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_hilum_middle_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004888",
+        "label": "right lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lungs_R_lower_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002171",
+        "label": "lower lobe of right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_hilum_lower_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004888",
+        "label": "right lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_anterior_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7364",
+        "label": "right anterior basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_lateral_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7363",
+        "label": "right lateral basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_medial_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7365",
+        "label": "right medial basal bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_posterior_basal_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7362",
+        "label": "right posterior basal bronchopulmonary segment",
+        "meanExpr": 0.6187247037887573,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_superior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7366",
+        "label": "right superior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lungs_R_upper_lobe",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002170",
+        "label": "upper lobe of right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_apical_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7338",
+        "label": "right apical bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_posterior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7339",
+        "label": "right posterior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_anterior_bronchopulmonary_segment",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7359",
+        "label": "right anterior bronchopulmonary segment",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_hilum_upper_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004888",
+        "label": "right lung hilus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_bronchi",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002185",
+        "label": "bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_cartilage_of_the_lobar_bronchus_L",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma62659",
+        "label": "cartilage of lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_cartilage_of_the_tertiary_bronchus_L",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma62662",
+        "label": "cartilage of segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lobar_bronchus_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0003405",
+        "label": "lobar bronchus of left lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_superior_lobar_bronchus",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0012065",
+        "label": "lobar bronchus of left lung upper lobe",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_inferior_lobar_bronchus",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0012066",
+        "label": "lobar bronchus of left lung lower lobe",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_tertiary_bronchi_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002184",
+        "label": "segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_superior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7504",
+        "label": "left superior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_posterior_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7508",
+        "label": "left posterior basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_medial_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7505",
+        "label": "left medial basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_apical_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7426",
+        "label": "left apical segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_anterior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7428",
+        "label": "left anterior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_lingula_superior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7430",
+        "label": "superior lingular bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_lingula_inferior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7431",
+        "label": "inferior lingular bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_lateral_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7507",
+        "label": "left lateral basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_left_anterior_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7506",
+        "label": "left anterior basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_cartilage_of_the_lobar_bronchus_R",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma62659",
+        "label": "cartilage of lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_cartilage_of_the_tertiary_bronchus_R",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma62662",
+        "label": "cartilage of segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_lobar_bronchi_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0003404",
+        "label": "lobar bronchus of right lung",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_intermediate_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7415",
+        "label": "interlobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_middle_lobar_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7401",
+        "label": "middle lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_superior_lobar_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7397",
+        "label": "right superior lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_tertiary_bronchi_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002184",
+        "label": "segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_anterior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7400",
+        "label": "right anterior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_lateral_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7419",
+        "label": "right lateral basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_lateral_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7402",
+        "label": "lateral segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_lower_lobar_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7404",
+        "label": "right inferior lobar bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_medial_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7417",
+        "label": "right medial basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_medial_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7403",
+        "label": "medial segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_posterior_basal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7420",
+        "label": "right posterior basal segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_posterior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7399",
+        "label": "right posterior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_superior_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7416",
+        "label": "right superior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_apical_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7416",
+        "label": "right superior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_right_anterior_basal_bronchus",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7399",
+        "label": "right posterior segmental bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/lung-male/v1.4#VH_M_bronchus",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002185",
+        "label": "bronchus",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 71,
+      "nodesWithData": 1,
+      "nodesWithoutData": 70
+    }
+  },
+  "pancreas|XIAP|female|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": null,
+    "max": null,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 0,
+      "nodesWithoutData": 6
+    }
+  },
+  "pancreas|XIAP|male|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": null,
+    "max": null,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_uncinate_process_of_the_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 0,
+      "nodesWithoutData": 6
+    }
+  }
+}

@@ -1,0 +1,17 @@
+node_modules
+dist
+.venv
+.env
+.DS_Store
+data/raw/*
+data/processed/*
+!data/processed/*.json
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.pyc
+__pycache__
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+test-results/
+playwright-report/

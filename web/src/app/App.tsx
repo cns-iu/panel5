@@ -1,0 +1,6 @@
+import {useEffect} from 'react';
+import {BodyPanel, ReferenceOrganPicker} from '../components/anatomy/BodyPanel';
+import {FilteredFtuExplorer} from '../components/ftu/FilteredFtuExplorer';
+import {ExpressionViewer} from '../components/expression/ExpressionViewer';
+import {useExplorerStore} from '../store/selection';
+export default function App(){const organ=useExplorerStore((s)=>s.organ); useEffect(()=>{if(organ)document.getElementById('explore')?.scrollIntoView({behavior:'smooth',block:'start'})},[organ?.organKey,organ?.sex,organ?.laterality]); return <div className="app-shell"><main><section className="hero" id="anatomy"><div className="hero-copy"><div className="eyebrow">HRA · RESEARCH INTERFACE</div><h1>Panel 5</h1><p>Explore reference organs, functional tissue units, and biomarker and phenotype across anatomical structure.</p><div className="hero-note"><span>01</span><span>Select an organ in either viewer to begin.</span></div></div><div className="body-grid"><BodyPanel sex="male"/><BodyPanel sex="female"/><ReferenceOrganPicker/></div></section><div className="transition-band" id="explore"><section className="ftu-section"><FilteredFtuExplorer/></section><section id="expression" className="expression-section"><ExpressionViewer/></section></div></main></div>}
