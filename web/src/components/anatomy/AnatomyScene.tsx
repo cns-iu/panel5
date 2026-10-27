@@ -6,7 +6,14 @@ import type {BiologicalSex, Laterality} from '../../types/hra';
 import {ORGAN_REGISTRY, contextFor} from '../../data/organRegistry';
 import {useExplorerStore} from '../../store/selection';
 
-const MODEL_BASE=import.meta.env.VITE_MODEL_BASE_URL ?? 'http://localhost:8000/api/v1/models';
+const MODEL_BASE=import.meta.env.VITE_MODEL_BASE_URL;
+// The whole-body GLBs are too large for a normal GitHub repository.  They are
+// published by the NIH 3D API and can be loaded directly by the public Pages
+// site; a configured local API remains available for development.
+const FULL_BODY_STATIC: Record<BiologicalSex,string> = {
+  male: 'https://3d.nih.gov/api/submissions/43533/runs/2e6aa272-2f98-4f9e-b73d-74cdc80e0895/output-files/2111474',
+  female: 'https://3d.nih.gov/api/submissions/43503/runs/c72da12e-7488-4b82-9da2-78ecd0cc0d0f/output-files/2111062',
+};
 const STATIC_BASE=import.meta.env.BASE_URL;
 const placements: Record<string,[number,number,number]> = {pancreas:[0.25,-0.2,0.45],skin:[0,0,0],eye:[0,1.72,0.38],'large-intestine':[0,-0.8,0.38],'small-intestine':[0,-0.38,0.42],kidney:[1.05,0.3,0.35],'lymph-node':[-0.7,0.2,0.38],'spinal-cord':[0,0.3,-0.12],brain:[0,1.72,0.38]};
 function OrganMesh({organKey, sex, laterality, onHover}:{organKey:string;sex:BiologicalSex;laterality:Laterality;onHover:(k:string|null)=>void}){
@@ -24,7 +31,7 @@ function ReferenceKidneyModel({sex,laterality,onSelect}:{sex:BiologicalSex;later
 function nodeOrgan(name:string){const n=name.toLowerCase(); if(n.includes('pancreas'))return 'pancreas'; if(n.includes('skin'))return 'skin'; if(n.includes('eye'))return 'eye'; if(n.includes('large_intestine')||n.includes('colon'))return 'large-intestine'; if(n.includes('small_intestine'))return 'small-intestine'; if(n.includes('kidney'))return 'kidney'; if(n.includes('lymph_node'))return 'lymph-node'; if(n.includes('spinal_cord'))return 'spinal-cord'; if(n.includes('brain'))return 'brain'; return null;}
 function nodeLaterality(name:string): Laterality {const n=name.toLowerCase(); if(/(^|[_-])(left|l|_l)([_-]|$)/.test(n)||n.endsWith('_l'))return 'left'; if(/(^|[_-])(right|r|_r)([_-]|$)/.test(n)||n.endsWith('_r'))return 'right'; return 'midline';}
 function FullBodyModel({sex,onOrgan,onLoaded}:{sex:BiologicalSex;onOrgan:(organKey:string,laterality:Laterality,sceneNode:string)=>void;onLoaded:()=>void}){
- const {scene}=useGLTF(`${MODEL_BASE}/${sex}`); useEffect(()=>{onLoaded()},[onLoaded]); const cloned=useMemo(()=>{const copy=scene.clone(true);copy.traverse((obj)=>{const mesh=obj as any;if(!mesh.isMesh)return;const organ=nodeOrgan(mesh.name||'');const isSkin=(mesh.name||'').toLowerCase().includes('skin');if(isSkin)mesh.raycast=()=>{};if(mesh.material){const apply=(m:any)=>{const next=m.clone();const organColor=ORGAN_REGISTRY.find((x)=>x.organKey===organ)?.color;if(organColor&&organ!=='skin')next.color?.set(organColor);if(isSkin){next.transparent=true;next.opacity=.12;next.depthWrite=false}return next};mesh.material=Array.isArray(mesh.material)?mesh.material.map(apply):apply(mesh.material)}mesh.userData={organKey:organ,source:'NIH 3D / HRA v1.5',sceneNode:mesh.name}});return copy},[scene]);
+ const {scene}=useGLTF(MODEL_BASE ? `${MODEL_BASE}/${sex}` : FULL_BODY_STATIC[sex]); useEffect(()=>{onLoaded()},[onLoaded]); const cloned=useMemo(()=>{const copy=scene.clone(true);copy.traverse((obj)=>{const mesh=obj as any;if(!mesh.isMesh)return;const organ=nodeOrgan(mesh.name||'');const isSkin=(mesh.name||'').toLowerCase().includes('skin');if(isSkin)mesh.raycast=()=>{};if(mesh.material){const apply=(m:any)=>{const next=m.clone();const organColor=ORGAN_REGISTRY.find((x)=>x.organKey===organ)?.color;if(organColor&&organ!=='skin')next.color?.set(organColor);if(isSkin){next.transparent=true;next.opacity=.12;next.depthWrite=false}return next};mesh.material=Array.isArray(mesh.material)?mesh.material.map(apply):apply(mesh.material)}mesh.userData={organKey:organ,source:'NIH 3D / HRA v1.5',sceneNode:mesh.name}});return copy},[scene]);
  return <primitive object={cloned} scale={2.05} position={[0,0,0]} onClick={(e:any)=>{e.stopPropagation();const organ=e.object?.userData?.organKey;if(organ)onOrgan(organ,nodeLaterality(e.object?.name||''),e.object?.name||'unknown')}} userData={{source:'NIH 3D 3DPX-021022/3DPX-020992',sex}}/>;
 }
 function Body({sex,onHover,useFullBody,bodyLoaded,onBodyLoaded}:{sex:BiologicalSex;onHover:(k:string|null)=>void;useFullBody:boolean;bodyLoaded:boolean;onBodyLoaded:()=>void}){
@@ -36,7 +43,7 @@ function Body({sex,onHover,useFullBody,bodyLoaded,onBodyLoaded}:{sex:BiologicalS
  </group>;
 }
 export function AnatomyScene({sex}:{sex:BiologicalSex}){
- const [hovered,setHovered]=useState<string|null>(null); const [bodyAvailable,setBodyAvailable]=useState(false); const [bodyLoaded,setBodyLoaded]=useState(false); const selected=useExplorerStore((s)=>s.organ); const modelUrl=`${MODEL_BASE}/${sex}`;
+ const [hovered,setHovered]=useState<string|null>(null); const [bodyAvailable,setBodyAvailable]=useState(false); const [bodyLoaded,setBodyLoaded]=useState(false); const selected=useExplorerStore((s)=>s.organ); const modelUrl=MODEL_BASE ? `${MODEL_BASE}/${sex}` : FULL_BODY_STATIC[sex];
  useEffect(()=>{const ac=new AbortController(); setBodyLoaded(false); fetch(modelUrl,{method:'HEAD',signal:ac.signal}).then((r)=>setBodyAvailable(r.ok)).catch(()=>setBodyAvailable(false));return()=>ac.abort()},[modelUrl]);
  const laterality = selected?.sex===sex && selected.organKey==='kidney' ? selected.laterality : 'left'; const label=hovered ? (ORGAN_REGISTRY.find((x)=>x.organKey===hovered)?.organLabel ?? hovered) : null; const markBodyLoaded=useCallback(()=>setBodyLoaded(true),[]);
  return <div className="anatomy-canvas" aria-label={`${sex} anatomy viewer`}><Canvas camera={{position:[0,0,sex==='male'?5.4:5],fov:40}} dpr={[1,1.5]}><ambientLight intensity={1.2}/><directionalLight position={[3,4,5]} intensity={2}/><Environment preset="city"/><Body sex={sex} onHover={setHovered} useFullBody={bodyAvailable} bodyLoaded={bodyLoaded} onBodyLoaded={markBodyLoaded}/><OrbitControls enablePan={true} mouseButtons={{LEFT:MOUSE.PAN,MIDDLE:MOUSE.DOLLY,RIGHT:MOUSE.ROTATE}} minDistance={3.2} maxDistance={9}/>{label && <Html position={[0,2.25,0]} center><div className="tooltip">{label} · {sex === 'male' ? 'Male' : 'Female'}{hovered==='kidney' ? ` · ${laterality === 'right' ? 'Right' : 'Left'}`:''}</div></Html>}</Canvas></div>;
