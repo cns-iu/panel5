@@ -11,5 +11,12 @@ export const ORGAN_REGISTRY: OrganRegistryEntry[] = [
   {organKey:'spinal-cord', organLabel:'Spinal cord', ftuOrganId:'UBERON:0002240', ontologyIds:['http://purl.obolibrary.org/obo/UBERON_0002240'], supportedSex:['male','female'], color:'#f472b6'},
   {organKey:'brain', organLabel:'Brain', ftuOrganId:'UBERON:0000955', ontologyIds:['http://purl.obolibrary.org/obo/UBERON_0000955'], supportedSex:['male','female'], color:'#fb7185'},
 ];
-export function getOrgan(key:string){return ORGAN_REGISTRY.find((x)=>x.organKey===key) ?? null;}
+// These organs have verified Section C expression snapshots but remain out of
+// the compact reference-organ picker requested for the landing view. They can
+// still be selected by clicking their meshes in the full-body model.
+export const EXPRESSION_ONLY_ORGANS: OrganRegistryEntry[] = [
+  {organKey:'lung', organLabel:'Lung', ftuOrganId:'UBERON:0002048', ontologyIds:['http://purl.obolibrary.org/obo/UBERON_0002048'], supportedSex:['male','female'], color:'#60a5fa'},
+  {organKey:'liver', organLabel:'Liver', ftuOrganId:'UBERON:0002107', ontologyIds:['http://purl.obolibrary.org/obo/UBERON_0002107'], supportedSex:['male','female'], color:'#c084fc'},
+];
+export function getOrgan(key:string){return ORGAN_REGISTRY.find((x)=>x.organKey===key) ?? EXPRESSION_ONLY_ORGANS.find((x)=>x.organKey===key) ?? null;}
 export function contextFor(key:string, sex:BiologicalSex, laterality:Laterality){const o=getOrgan(key); if(!o) return null; return {organKey:o.organKey,organLabel:o.organLabel,organOntologyIds:o.ontologyIds,sex,laterality,referenceOrganIri:`https://purl.humanatlas.io/ref-organ/${sex}-${key}-${laterality}`,sceneNodeIds:[]};}
