@@ -5,9 +5,9 @@ import * as THREE from 'three';
 import {MOUSE} from 'three';
 import {viridisColor} from '../../utils/viridis';
 import type {BiologicalSex, ExpressionResponse, Laterality} from '../../types/hra';
+import {staticAsset} from '../../utils/staticAsset';
 
 const API_BASE=import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8000';
-const STATIC_BASE=import.meta.env.BASE_URL;
 const HPO_NEUTRAL_COLOR='#dae1e8';
 
 export type AnatomyStats={targetMeshCount:number;matchedCount:number;missingCount:number;min:number|null;max:number|null};
@@ -16,7 +16,7 @@ type Props={organKey:string;sex:BiologicalSex;laterality:Laterality;data:Express
 
 export function organForNode(name:string){const n=name.toLowerCase();if(n.includes('pancreas'))return 'pancreas';if(n.includes('skin'))return 'skin';if(n.includes('eye'))return 'eye';if(n.includes('large_intestine')||n.includes('colon')||n.includes('rectum')||n.includes('caecum')||n.includes('ileocecal')||n.includes('vermiform')||n.includes('flexure'))return 'large-intestine';if(n.includes('small_intestine'))return 'small-intestine';if(n.includes('kidney'))return 'kidney';if(n.includes('lymph_node'))return 'lymph-node';if(n.includes('spinal_cord'))return 'spinal-cord';if(n.includes('brain'))return 'brain';return null;}
 export function sideMatches(name:string,laterality:Laterality){if(laterality==='midline'||laterality==='unspecified')return true;const n=name.toLowerCase();return laterality==='left'?/(^|[_-])(left|l)([_-]|$)/.test(n)||n.endsWith('_l'):/(^|[_-])(right|r)([_-]|$)/.test(n)||n.endsWith('_r');}
-export function modelUrl(organKey:string,sex:BiologicalSex,laterality:Laterality){if(organKey==='large-intestine')return `${STATIC_BASE}models/large-intestine-${sex}-v1.3.glb`;if(organKey==='kidney'&&(laterality==='left'||laterality==='right'))return `${STATIC_BASE}models/kidney-${sex}-${laterality}-v1.3.glb`;return `${API_BASE}/api/v1/models/${sex}`;}
+export function modelUrl(organKey:string,sex:BiologicalSex,laterality:Laterality){if(organKey==='large-intestine')return staticAsset(`models/large-intestine-${sex}-v1.3.glb`);if(organKey==='kidney'&&(laterality==='left'||laterality==='right'))return staticAsset(`models/kidney-${sex}-${laterality}-v1.3.glb`);return `${API_BASE}/api/v1/models/${sex}`;}
 function nodeKey(value:string){return value.split('#').pop() ?? value;}
 export function expressionValue(node:{meanExpr:number|null;hasData:boolean}|undefined){return node&&node.hasData&&typeof node.meanExpr==='number'&&Number.isFinite(node.meanExpr)?node.meanExpr:null;}
 
