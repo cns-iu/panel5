@@ -25,6 +25,8 @@ export function OfficialFtuHost({catalog,selectedIri,onSelect,fallback}:{catalog
  // The official component initializes its own Angular router as soon as it is
  // connected. Put it on the /ftu route before React appends the element so its
  // selectedIllustration input opens the detail view instead of the landing page.
- if(initialId&&window.location.pathname!=='/ftu')window.history.replaceState({},'',`/ftu?id=${encodeURIComponent(initialId)}`);
+ const appBase=window.location.hostname.endsWith('github.io')?'/panel5':'';
+ const ftuPath=`${appBase}/ftu`;
+ if(initialId&&window.location.pathname!==ftuPath)window.history.replaceState({},'',`${ftuPath}?id=${encodeURIComponent(initialId)}`);
  return <div className="official-ftu-host"><div className="official-ftu-badge">Official HRA FTU Explorer · live Web Component</div>{createElement('hra-ftu-ui',{'selected-illustration':selectedIri ?? catalog['@graph'][0]?.['@id'],ref:(node:HTMLElement|null)=>{elementRef.current=node as FtuElement|null}})}</div>;
 }
