@@ -8,7 +8,6 @@ import type {BiologicalSex, ExpressionResponse, Laterality} from '../../types/hr
 import {staticAsset} from '../../utils/staticAsset';
 
 const HPO_NEUTRAL_COLOR='#dae1e8';
-const HPO_ACCENT_COLOR='#f973a8';
 
 export type HpoEntry={label:string;hpoCount:number;hpo:Array<{id:string;label:string}>;direct:number;propagated:number};
 export type HpoIndex={source:string;rows:number;byUberon:Record<string,HpoEntry>};
@@ -30,7 +29,7 @@ function buildScene(scene:THREE.Object3D,props:Props){
   if(target.length===0)throw new Error(`No real anatomical meshes found for ${props.organKey} (${props.sex}, ${props.laterality})`);
   const values=props.mode==='expression'?target.map((mesh)=>expressionValue(mesh.userData as {meanExpr:number|null;hasData:boolean})).filter((value):value is number=>value!==null):[];const min=values.length?Math.min(...values):null;const max=values.length?Math.max(...values):null;let matched=0;
   const hpoMax=props.hpoScaleMax ?? Math.max(0,...target.map((mesh)=>Number(mesh.userData.hpoCount)||0));
-  target.forEach((mesh)=>{const value=expressionValue(mesh.userData as {meanExpr:number|null;hasData:boolean});const hasExpression=value!==null;if(hasExpression)matched+=1;const hpoCount=Number(mesh.userData.hpoCount)||0;const hasHpo=props.mode==='hpo'&&hpoCount>0;const color=props.mode==='hpo'?(hasHpo?new THREE.Color(HPO_ACCENT_COLOR).lerp(new THREE.Color('#fde047'),hpoMax?Math.log1p(hpoCount)/Math.log1p(hpoMax):1):new THREE.Color(HPO_NEUTRAL_COLOR)):viridisColor(value,min,max,hasExpression);const apply=(material:THREE.Material)=>{const next=material.clone();if('color' in next)(next as THREE.MeshStandardMaterial).color.set(color);if((props.mode==='expression'&&!hasExpression)||(props.mode==='hpo'&&!hasHpo)){next.transparent=true;next.opacity=.2;next.depthWrite=false;}return next};mesh.material=Array.isArray(mesh.material)?mesh.material.map(apply):apply(mesh.material);});
+  target.forEach((mesh)=>{const value=expressionValue(mesh.userData as {meanExpr:number|null;hasData:boolean});const hasExpression=value!==null;if(hasExpression)matched+=1;const hpoCount=Number(mesh.userData.hpoCount)||0;const hasHpo=props.mode==='hpo'&&hpoCount>0;const color=props.mode==='hpo'?viridisColor(hpoCount,0,hpoMax,hasHpo):viridisColor(value,min,max,hasExpression);const apply=(material:THREE.Material)=>{const next=material.clone();if('color' in next)(next as THREE.MeshStandardMaterial).color.set(color);if((props.mode==='expression'&&!hasExpression)||(props.mode==='hpo'&&!hasHpo)){next.transparent=true;next.opacity=.2;next.depthWrite=false;}return next};mesh.material=Array.isArray(mesh.material)?mesh.material.map(apply):apply(mesh.material);});
   const bounds=new THREE.Box3();target.forEach((mesh)=>bounds.expandByObject(mesh));const center=bounds.getCenter(new THREE.Vector3());const size=bounds.getSize(new THREE.Vector3());const largest=Math.max(size.x,size.y,size.z);const fitScale=largest>0?2.8/largest:1;return {copy,center,fitScale,stats:{targetMeshCount:target.length,matchedCount:matched,missingCount:target.length-matched,min,max} satisfies AnatomyStats};
 }
 
