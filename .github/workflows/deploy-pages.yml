@@ -30,7 +30,11 @@ jobs:
       - name: Build
         run: npm run build
       - name: Add SPA fallback for GitHub Pages
-        run: cp dist/index.html dist/404.html
+        run: |
+          cp dist/index.html dist/404.html
+          mkdir -p dist/ftu
+          cp dist/index.html dist/ftu/index.html
+          sed -i 's#\./assets/#../assets/#g' dist/ftu/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
