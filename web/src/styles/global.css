@@ -26,3 +26,4 @@
 .selection-bar{background:transparent}
 .transition-band{margin:0;background:transparent}
 .transition-band .ftu-section,.transition-band .expression-section{margin:0;padding:26px 0;background:transparent}
+.hpo-strip{height:8px;border-radius:4px;background:linear-gradient(90deg,#f973a8,#fb7185,#f59e0b,#fde047)}
