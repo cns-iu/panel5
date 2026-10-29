@@ -21,14 +21,14 @@ export function OfficialFtuHost({catalog,selectedIri,onSelect,fallback}:{catalog
  useEffect(()=>{if(!ENABLED)return; if(window.location.hostname.endsWith('github.io')&&!document.querySelector('base[data-panel5-base]')){const base=document.createElement('base');base.href='/panel5/';base.dataset.panel5Base='true';document.head.prepend(base)} let active=true;loadOfficialBundle().then(()=>active&&setReady(true)).catch((e)=>active&&setError(e instanceof Error?e.message:'Official FTU bundle unavailable'));return()=>{active=false}},[]);
  useEffect(()=>{if(!ready)return;const id='panel5-ftu-header-style';if(!document.getElementById(id)){const style=document.createElement('style');style.id=id;style.textContent='.official-ftu-host hra-ftu-ui hra-header{display:none!important;}';document.head.appendChild(style)}},[ready]);
  useEffect(()=>{const item=catalog['@graph'].find((entry)=>entry['@id']===(selectedIri??catalog['@graph'][0]?.['@id']));const svg=item?.illustration_files?.find((file)=>file.file_format==='image/svg+xml')?.file;if(!svg||document.querySelector(`link[data-ftu-preload="${svg}"]`))return;const link=document.createElement('link');link.rel='preload';link.as='image';link.href=svg;link.dataset.ftuPreload=svg;document.head.appendChild(link)},[catalog,selectedIri]);
+ const appBase=window.location.hostname.endsWith('github.io')?'/panel5':'';
+ const ftuPath=`${appBase}/ftu`;
+ const initialId=selectedIri??catalog['@graph'][0]?.['@id'];
+ useEffect(()=>{if(!ready||!initialId||window.location.pathname===ftuPath)return;window.location.assign(`${ftuPath}?id=${encodeURIComponent(initialId)}`)},[ready,initialId,ftuPath]);
  useEffect(()=>{const el=elementRef.current;if(!el||!ready)return;el.baseHref=BASE;el.illustrations=catalog;el.summaries=SUMMARY_URL;el.datasets=DATASET_URL;el.selectedIllustration=selectedIri??catalog['@graph'][0]?.['@id']; const handler=(event:Event)=>{const iri=(event as CustomEvent<string>).detail;if(typeof iri==='string'&&catalog['@graph'].some((item)=>item['@id']===iri))onSelect(iri)};el.addEventListener('illustration-selected',handler);return()=>el.removeEventListener('illustration-selected',handler)},[catalog,onSelect,ready,selectedIri]);
  if(!ready||error||catalog['@graph'].length===0)return <>{fallback}{error&&<p className="ftu-runtime-note">Official HRA FTU bundle unavailable: {error}. Showing the verified catalogue fallback.</p>}</>;
- const initialId=selectedIri??catalog['@graph'][0]?.['@id'];
  // The official component initializes its own Angular router as soon as it is
  // connected. Put it on the /ftu route before React appends the element so its
  // selectedIllustration input opens the detail view instead of the landing page.
- const appBase=window.location.hostname.endsWith('github.io')?'/panel5':'';
- const ftuPath=`${appBase}/ftu`;
- if(initialId&&window.location.pathname!==ftuPath)window.history.replaceState({},'',`${ftuPath}?id=${encodeURIComponent(initialId)}`);
  return <div className="official-ftu-host"><div className="official-ftu-badge">Official HRA FTU Explorer · live Web Component</div>{createElement('hra-ftu-ui',{key:selectedIri ?? catalog['@graph'][0]?.['@id'],'selected-illustration':selectedIri ?? catalog['@graph'][0]?.['@id'],ref:(node:HTMLElement|null)=>{elementRef.current=node as FtuElement|null}})}</div>;
 }
