@@ -28,3 +28,4 @@
 .transition-band .ftu-section,.transition-band .expression-section{margin:0;padding:26px 0;background:transparent}
 .hpo-strip{height:8px;border-radius:4px;background:linear-gradient(90deg,#f973a8,#fb7185,#f59e0b,#fde047)}
 .hpo-strip{background:linear-gradient(90deg,#7f1d1d,#dc2626,#f97316,#facc15,#fde047)}
+.direct-ftu-illustration{display:block;width:100%;max-height:560px;object-fit:contain;background:#fff;border-radius:8px}
