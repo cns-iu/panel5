@@ -29,5 +29,5 @@ export function OfficialFtuHost({catalog,selectedIri,onSelect,fallback}:{catalog
  const appBase=window.location.hostname.endsWith('github.io')?'/panel5':'';
  const ftuPath=`${appBase}/ftu`;
  if(initialId&&window.location.pathname!==ftuPath)window.history.replaceState({},'',`${ftuPath}?id=${encodeURIComponent(initialId)}`);
- return <div className="official-ftu-host"><div className="official-ftu-badge">Official HRA FTU Explorer · live Web Component</div>{createElement('hra-ftu-ui',{'selected-illustration':selectedIri ?? catalog['@graph'][0]?.['@id'],ref:(node:HTMLElement|null)=>{elementRef.current=node as FtuElement|null}})}</div>;
+ return <div className="official-ftu-host"><div className="official-ftu-badge">Official HRA FTU Explorer · live Web Component</div>{createElement('hra-ftu-ui',{key:selectedIri ?? catalog['@graph'][0]?.['@id'],'selected-illustration':selectedIri ?? catalog['@graph'][0]?.['@id'],ref:(node:HTMLElement|null)=>{elementRef.current=node as FtuElement|null}})}</div>;
 }
