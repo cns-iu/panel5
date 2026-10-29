@@ -15,5 +15,5 @@ export function FilteredFtuExplorer(){
  useEffect(()=>{if(!organ||selectedIri||current['@graph'].length===0)return;const defaults:Record<string,string>={kidney:'renal corpuscle',pancreas:'pancreatic acinus','large-intestine':'crypt of lieberkuhn of large intestine'};const target=defaults[organ.organKey];if(!target)return;const defaultFtu=current['@graph'].find((item)=>item.label.toLowerCase()===target);if(defaultFtu)selectFtu(defaultFtu['@id'])},[current,organ,selectedIri,selectFtu]);
  if(!organ) return <section className="empty-panel"><div className="empty-icon">⌁</div><h3>Select an organ to explore FTUs</h3><p>Choose a structure in either anatomy viewer to load its current HRA functional tissue units.</p></section>;
  const fallback=<FallbackFtuExplorer organ={organ} catalog={current} selectedIri={selectedIri} onSelect={selectFtu}/>;
- return <OfficialFtuHost key={`${organ.organKey}-${selectedIri ?? current['@graph'][0]?.['@id'] ?? 'empty'}`} catalog={current} selectedIri={selectedIri} onSelect={selectFtu} fallback={fallback}/>;
+ return <OfficialFtuHost key={`${organ.organKey}-${selectedIri ?? current['@graph'][0]?.['@id'] ?? 'empty'}`} catalog={current} organLabel={organ.organLabel} selectedIri={selectedIri} onSelect={selectFtu} fallback={fallback}/>;
 }
