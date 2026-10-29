@@ -32,8 +32,9 @@ jobs:
       - name: Add SPA fallback for GitHub Pages
         run: |
           cp dist/index.html dist/404.html
-          rm -rf dist/ftu
-          cp dist/index.html dist/ftu
+          mkdir -p dist/ftu
+          cp dist/index.html dist/ftu/index.html
+          sed -i 's#\./assets/#../assets/#g' dist/ftu/index.html
       - name: Configure Pages
         uses: actions/configure-pages@v5
         with:
