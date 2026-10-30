@@ -10,9 +10,10 @@ type FtuElement = HTMLElement & {
   appLinks?: string;
   appResources?: string;
 };
-const BASE = import.meta.env.VITE_FTU_BASE_HREF ?? 'https://cdn.humanatlas.io/ui/ftu-ui/';
-const SUMMARY_URL = import.meta.env.VITE_FTU_SUMMARIES_URL ?? `${BASE}assets/TEMP/ftu-cell-summaries.jsonld`;
-const DATASET_URL = import.meta.env.VITE_FTU_DATASETS_URL ?? `${BASE}assets/TEMP/ftu-datasets.jsonld`;
+const RESOURCE_BASE = import.meta.env.VITE_FTU_BASE_HREF ?? 'https://cdn.humanatlas.io/ui/ftu-ui/';
+const BASE = import.meta.env.VITE_FTU_BUNDLE_BASE_HREF ?? (typeof window !== 'undefined' && window.location.hostname.endsWith('github.io' ) ? '/panel5/ftu-ui/' : RESOURCE_BASE);
+const SUMMARY_URL = import.meta.env.VITE_FTU_SUMMARIES_URL ?? `${RESOURCE_BASE}assets/TEMP/ftu-cell-summaries.jsonld`;
+const DATASET_URL = import.meta.env.VITE_FTU_DATASETS_URL ?? `${RESOURCE_BASE}assets/TEMP/ftu-datasets.jsonld`;
 const ENABLED = import.meta.env.VITE_USE_OFFICIAL_FTU !== 'false';
 let bundlePromise: Promise<void> | null = null;
 function loadScript(src:string,id:string,type?:string){return new Promise<void>((resolve,reject)=>{const existing=document.getElementById(id) as HTMLScriptElement|null;if(existing){if(existing.dataset.loaded==='true')return resolve(); existing.addEventListener('load',()=>resolve(),{once:true}); existing.addEventListener('error',()=>reject(new Error(`Failed to load ${src}`)),{once:true}); return;} const script=document.createElement('script');script.id=id;script.src=src;script.async=true;if(type)script.type=type;script.addEventListener('load',()=>{script.dataset.loaded='true';resolve()},{once:true});script.addEventListener('error',()=>reject(new Error(`Failed to load ${src}`)),{once:true});document.head.appendChild(script)});}
@@ -28,11 +29,11 @@ export function OfficialFtuHost({catalog,organLabel,selectedIri,onSelect,fallbac
  const ftuPath=`${appBase}/ftu/`;
  const initialId=selectedIri??catalog['@graph'][0]?.['@id'];
  useEffect(()=>{if(!ready||!initialId||window.location.pathname===ftuPath)return;window.location.assign(`${ftuPath}?id=${encodeURIComponent(initialId)}`)},[ready,initialId,ftuPath]);
- useEffect(()=>{const el=elementRef.current;if(!el||!ready)return;el.appLinks=`${BASE}assets/links.yml`;el.appResources=`${BASE}assets/resources.yml`;el.illustrations=catalog;el.summaries=SUMMARY_URL;el.datasets=DATASET_URL;el.selectedIllustration=selectedIri??catalog['@graph'][0]?.['@id']; const handler=(event:Event)=>{const iri=(event as CustomEvent<string>).detail;if(typeof iri==='string'&&catalog['@graph'].some((item)=>item['@id']===iri))onSelect(iri)};el.addEventListener('illustration-selected',handler);return()=>el.removeEventListener('illustration-selected',handler)},[catalog,onSelect,ready,selectedIri]);
+ useEffect(()=>{const el=elementRef.current;if(!el||!ready)return;el.appLinks=`${RESOURCE_BASE}assets/links.yml`;el.appResources=`${RESOURCE_BASE}assets/resources.yml`;el.illustrations=catalog;el.summaries=SUMMARY_URL;el.datasets=DATASET_URL;el.selectedIllustration=selectedIri??catalog['@graph'][0]?.['@id']; const handler=(event:Event)=>{const iri=(event as CustomEvent<string>).detail;if(typeof iri==='string'&&catalog['@graph'].some((item)=>item['@id']===iri))onSelect(iri)};el.addEventListener('illustration-selected',handler);return()=>el.removeEventListener('illustration-selected',handler)},[catalog,onSelect,ready,selectedIri]);
  if(!ready||error||catalog['@graph'].length===0)return <>{fallback}{error&&<p className="ftu-runtime-note">Official HRA FTU bundle unavailable: {error}. Showing the verified catalogue fallback.</p>}</>;
  // The official component initializes its own Angular router as soon as it is
  // connected. Put it on the /ftu route before React appends the element so its
  // selectedIllustration input opens the detail view instead of the landing page.
- const bindElement=(node:HTMLElement|null)=>{elementRef.current=node as FtuElement|null;if(node){const el=node as FtuElement;el.appLinks=`${BASE}assets/links.yml`;el.appResources=`${BASE}assets/resources.yml`;el.illustrations=catalog;el.summaries=SUMMARY_URL;el.datasets=DATASET_URL;el.selectedIllustration=initialId}};
+ const bindElement=(node:HTMLElement|null)=>{elementRef.current=node as FtuElement|null;if(node){const el=node as FtuElement;el.appLinks=`${RESOURCE_BASE}assets/links.yml`;el.appResources=`${RESOURCE_BASE}assets/resources.yml`;el.illustrations=catalog;el.summaries=SUMMARY_URL;el.datasets=DATASET_URL;el.selectedIllustration=initialId}};
  return <div className="official-ftu-host"><div className="official-ftu-heading"><h3>Human Reference Atlas</h3><div><em>Functional Tissue Unit Level</em></div><div className="official-ftu-organ">{organLabel}</div><p>Hover over different cell types in the 2D illustration on left to see gene expression values per cell type for healthy humans in data visualization on right.</p></div>{createElement('hra-ftu-ui',{'selected-illustration':initialId,ref:bindElement})}</div>;
 }
