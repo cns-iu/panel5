@@ -12,8 +12,13 @@ export function FilteredFtuExplorer(){
  const queryFtu=useMemo(()=>queryIri?FTU_CATALOG['@graph'].find((item)=>item['@id']===queryIri):null,[queryIri]);
  useEffect(()=>{if(organ||!queryFtu)return;const queryOrganId=queryFtu.organ_id.toLowerCase().replace('uberon:','http://purl.obolibrary.org/obo/uberon_');const entry=ORGAN_REGISTRY.find((candidate)=>candidate.ontologyIds.some((id)=>id.toLowerCase()===queryOrganId));if(entry){const laterality=entry.organKey==='kidney'?'left':'midline';const context=contextFor(entry.organKey,'male',laterality);if(context){selectOrgan(context);selectFtu(queryFtu['@id'])}}},[organ,queryFtu,selectOrgan,selectFtu]);
  useEffect(()=>{const ac=new AbortController(); fetch(`${apiBase}/api/v1/ftu-illustrations`,{signal:ac.signal}).then((r)=>r.ok?r.json():Promise.reject(new Error('FTU API unavailable'))).then((payload)=>{if(payload?.['@graph']?.length)setCatalog(payload)}).catch(()=>undefined); return()=>ac.abort()},[apiBase]); const current=useMemo(()=>organ?filterFtusForOrgan(catalog,organ.organKey):{'@graph':[]},[catalog,organ]);
- useEffect(()=>{if(!organ||selectedIri||current['@graph'].length===0)return;const defaults:Record<string,string>={kidney:'renal corpuscle',pancreas:'pancreatic acinus','large-intestine':'crypt of lieberkuhn of large intestine'};const target=defaults[organ.organKey];if(!target)return;const defaultFtu=current['@graph'].find((item)=>item.label.toLowerCase()===target);if(defaultFtu)selectFtu(defaultFtu['@id'])},[current,organ,selectedIri,selectFtu]);
+ const defaults:Record<string,string>={kidney:'renal corpuscle',pancreas:'pancreatic acinus','large-intestine':'crypt of lieberkuhn of large intestine'};
+ const selectedIsValid=Boolean(selectedIri&&current['@graph'].some((item)=>item['@id']===selectedIri));
+ const defaultTarget=organ ? defaults[organ.organKey] : undefined;
+ const defaultFtu=defaultTarget ? current['@graph'].find((item)=>item.label.toLowerCase()===defaultTarget) : undefined;
+ const effectiveSelectedIri=selectedIsValid ? selectedIri : (defaultFtu?.['@id'] ?? current['@graph'][0]?.['@id'] ?? null);
+ useEffect(()=>{if(!organ||current['@graph'].length===0||selectedIsValid)return;if(effectiveSelectedIri)selectFtu(effectiveSelectedIri)},[current,organ,selectedIsValid,effectiveSelectedIri,selectFtu]);
  if(!organ) return <section className="empty-panel"><div className="empty-icon">⌁</div><h3>Select an organ to explore FTUs</h3><p>Choose a structure in either anatomy viewer to load its current HRA functional tissue units.</p></section>;
- const fallback=<FallbackFtuExplorer organ={organ} catalog={current} selectedIri={selectedIri} onSelect={selectFtu}/>;
- return <OfficialFtuHost key={`${organ.organKey}-${selectedIri ?? current['@graph'][0]?.['@id'] ?? 'empty'}`} catalog={current} organLabel={organ.organLabel} selectedIri={selectedIri} onSelect={selectFtu} fallback={fallback}/>;
+ const fallback=<FallbackFtuExplorer organ={organ} catalog={current} selectedIri={effectiveSelectedIri} onSelect={selectFtu}/>;
+ return <OfficialFtuHost key={`${organ.organKey}-${effectiveSelectedIri ?? 'empty'}`} catalog={current} organLabel={organ.organLabel} selectedIri={effectiveSelectedIri} onSelect={selectFtu} fallback={fallback}/>;
 }
