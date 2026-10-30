@@ -62,11 +62,18 @@ substring or from the parent organ.
 - `npm run typecheck` — passed.
 - `npm run test -- --run` — passed after the resolver tests were added.
 - `npm run build` — passed.
-- Browser/e2e verification should use the deployed page and real loaded GLBs;
-  the repository's Playwright server may be unable to bind in restricted local
-  environments. The overlay is `data-testid="as-hover-male"` or
-  `data-testid="as-hover-female"` and is pointer-transparent so orbit controls
-  and organ clicks remain available.
+- Deployed browser verification loaded both real GLBs at
+  `https://cns-iu.github.io/panel5/`. Pointer movement over the male and female
+  viewers produced independent `as-hover-male` / `as-hover-female` panels; the
+  center hit resolved to the name-only `sacrum` structure with `Not mapped`,
+  demonstrating the required no-fabrication fallback. A local Playwright
+  screenshot run can be slow with the 140–200 MB assets; the repository's
+  Playwright server may also be unable to bind in restricted local environments.
+  Evidence: `docs/screenshots/section-a-male-as-hover.png` and
+  `docs/screenshots/section-a-as-hover-cleared.png`.
+
+The overlay is pointer-transparent so orbit controls and organ clicks remain
+available.
 
 Section A click selection, FTU filtering, Section C updates, and the original
 YlGnBu appearance are preserved.
