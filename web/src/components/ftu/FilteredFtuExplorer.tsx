@@ -20,5 +20,5 @@ export function FilteredFtuExplorer(){
  useEffect(()=>{if(!organ||current['@graph'].length===0||selectedIsValid)return;if(effectiveSelectedIri)selectFtu(effectiveSelectedIri)},[current,organ,selectedIsValid,effectiveSelectedIri,selectFtu]);
  if(!organ) return <section className="empty-panel"><div className="empty-icon">⌁</div><h3>Select an organ to explore FTUs</h3><p>Choose a structure in either anatomy viewer to load its current HRA functional tissue units.</p></section>;
  const fallback=<FallbackFtuExplorer organ={organ} catalog={current} selectedIri={effectiveSelectedIri} onSelect={selectFtu}/>;
- return <OfficialFtuHost key={`${organ.organKey}-${effectiveSelectedIri ?? 'empty'}`} catalog={current} organLabel={organ.organLabel} selectedIri={effectiveSelectedIri} onSelect={selectFtu} fallback={fallback}/>;
+ return <OfficialFtuHost catalog={current} organLabel={organ.organLabel} selectedIri={effectiveSelectedIri} onSelect={selectFtu} fallback={fallback}/>;
 }
