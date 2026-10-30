@@ -3,9 +3,10 @@ import {OrbitControls, Environment, Html, useGLTF} from '@react-three/drei';
 import {MOUSE} from 'three';
 import {Suspense, useCallback, useEffect, useMemo, useState} from 'react';
 import type {BiologicalSex, Laterality} from '../../types/hra';
-import {ORGAN_REGISTRY, contextFor, getOrgan} from '../../data/organRegistry';
+import {contextFor, getOrgan} from '../../data/organRegistry';
 import {useExplorerStore} from '../../store/selection';
 import {staticAsset} from '../../utils/staticAsset';
+import {getSectionAColor} from './sectionAColors';
 
 const MODEL_BASE=import.meta.env.VITE_MODEL_BASE_URL;
 // The whole-body GLBs are too large for a normal GitHub repository.  They are
@@ -17,11 +18,11 @@ const FULL_BODY_STATIC: Record<BiologicalSex,string> = {
 };
 const placements: Record<string,[number,number,number]> = {pancreas:[0.25,-0.2,0.45],skin:[0,0,0],eye:[0,1.72,0.38],'large-intestine':[0,-0.8,0.38],'small-intestine':[0,-0.38,0.42],kidney:[1.05,0.3,0.35],'lymph-node':[-0.7,0.2,0.38],'spinal-cord':[0,0.3,-0.12],brain:[0,1.72,0.38]};
 function OrganMesh({organKey, sex, laterality, onHover}:{organKey:string;sex:BiologicalSex;laterality:Laterality;onHover:(k:string|null)=>void}){
- const o=ORGAN_REGISTRY.find((x)=>x.organKey===organKey)!; const selectOrgan=useExplorerStore((s)=>s.selectOrgan); const selected=useExplorerStore((s)=>s.organ); const position=placements[organKey] ?? [0,0,0]; const isSelected=selected?.organKey===organKey&&selected.sex===sex&&selected.laterality===laterality;
+ const selectOrgan=useExplorerStore((s)=>s.selectOrgan); const selected=useExplorerStore((s)=>s.organ); const position=placements[organKey] ?? [0,0,0]; const isSelected=selected?.organKey===organKey&&selected.sex===sex&&selected.laterality===laterality;
  const scale = organKey==='eye'?[.12,.12,.12]:organKey==='large-intestine'?[.9,.45,.25]:organKey==='small-intestine'?[.72,.35,.18]:organKey==='pancreas'?[.65,.2,.2]:organKey==='brain'?[.55,.45,.38]:organKey==='spinal-cord'?[.12,.9,.12]:organKey==='lymph-node'?[.16,.16,.16]:[.28,.48,.2];
  const pos: [number,number,number] = [position[0]+(laterality==='left'&&organKey==='kidney'?-0.28:laterality==='right'&&organKey==='kidney'?0.28:0),position[1],position[2]];
  return <mesh position={pos} scale={scale as [number,number,number]} onPointerOver={(e)=>{e.stopPropagation();onHover(organKey)}} onPointerOut={()=>onHover(null)} onClick={(e)=>{e.stopPropagation();const c=contextFor(organKey,sex,laterality);if(c) selectOrgan(c)}} userData={{organKey, sex, laterality}}>
-   <sphereGeometry args={[1,32,20]}/><meshStandardMaterial color={o.color} emissive={isSelected?o.color:'#000000'} emissiveIntensity={isSelected?.45:0} roughness={.58} metalness={.05}/>
+   <sphereGeometry args={[1,32,20]}/><meshStandardMaterial color={getSectionAColor(organKey)} emissive={isSelected?getSectionAColor(organKey):'#000000'} emissiveIntensity={isSelected?.45:0} roughness={.58} metalness={.05}/>
  </mesh>;
 }
 function ReferenceKidneyModel({sex,laterality,onSelect}:{sex:BiologicalSex;laterality:Laterality;onSelect:()=>void}){
@@ -31,7 +32,7 @@ function ReferenceKidneyModel({sex,laterality,onSelect}:{sex:BiologicalSex;later
 function nodeOrgan(name:string){const n=name.toLowerCase(); if(n.includes('pancreas'))return 'pancreas'; if(n.includes('liver')||n.includes('hepatic')||n.includes('porta_hepatis'))return 'liver'; if((n.includes('lung')||n.includes('bronch')||n.includes('pulmonary')||n.includes('hilum'))&&!n.includes('kidney'))return 'lung'; if(n.includes('skin'))return 'skin'; if(n.includes('eye'))return 'eye'; if(n.includes('large_intestine')||n.includes('colon'))return 'large-intestine'; if(n.includes('small_intestine'))return 'small-intestine'; if(n.includes('kidney')||n.includes('renal_')||n.includes('cortex_of_kidney')||n.includes('medulla')||n.includes('papilla')||n.includes('pyramid'))return 'kidney'; if(n.includes('lymph_node'))return 'lymph-node'; if(n.includes('spinal_cord'))return 'spinal-cord'; if(n.includes('brain'))return 'brain'; return null;}
 function nodeLaterality(name:string): Laterality {const n=name.toLowerCase(); if(/(^|[_-])(left|l|_l)([_-]|$)/.test(n)||n.endsWith('_l'))return 'left'; if(/(^|[_-])(right|r|_r)([_-]|$)/.test(n)||n.endsWith('_r'))return 'right'; return 'midline';}
 function FullBodyModel({sex,onOrgan,onLoaded}:{sex:BiologicalSex;onOrgan:(organKey:string,laterality:Laterality,sceneNode:string)=>void;onLoaded:()=>void}){
- const {scene}=useGLTF(MODEL_BASE ? `${MODEL_BASE}/${sex}` : FULL_BODY_STATIC[sex]); useEffect(()=>{onLoaded()},[onLoaded]); const cloned=useMemo(()=>{const copy=scene.clone(true);copy.traverse((obj)=>{const nodeName=(obj.name||'').toLowerCase();if(sex==='female'&&nodeName.includes('placenta')){obj.visible=false;obj.traverse((child:any)=>{child.visible=false;child.raycast=()=>{}});return}const mesh=obj as any;if(!mesh.isMesh)return;const organ=nodeOrgan(mesh.name||'');const isSkin=nodeName.includes('skin');if(isSkin)mesh.raycast=()=>{};if(mesh.material){const apply=(m:any)=>{const next=m.clone();const organColor=getOrgan(organ ?? '')?.color;if(organColor&&organ!=='skin')next.color?.set(organColor);if(isSkin){next.transparent=true;next.opacity=.12;next.depthWrite=false}return next};mesh.material=Array.isArray(mesh.material)?mesh.material.map(apply):apply(mesh.material)}mesh.userData={organKey:organ,source:'NIH 3D / HRA v1.5',sceneNode:mesh.name}});return copy},[scene,sex]);
+ const {scene}=useGLTF(MODEL_BASE ? `${MODEL_BASE}/${sex}` : FULL_BODY_STATIC[sex]); useEffect(()=>{onLoaded()},[onLoaded]); const cloned=useMemo(()=>{const copy=scene.clone(true);copy.traverse((obj)=>{const nodeName=(obj.name||'').toLowerCase();if(sex==='female'&&nodeName.includes('placenta')){obj.visible=false;obj.traverse((child:any)=>{child.visible=false;child.raycast=()=>{}});return}const mesh=obj as any;if(!mesh.isMesh)return;const organ=nodeOrgan(mesh.name||'');const isSkin=nodeName.includes('skin');if(isSkin)mesh.raycast=()=>{};if(mesh.material){const apply=(m:any)=>{const next=m.clone();next.color?.set(getSectionAColor(organ));if(isSkin){next.transparent=true;next.opacity=.12;next.depthWrite=false}return next};mesh.material=Array.isArray(mesh.material)?mesh.material.map(apply):apply(mesh.material)}mesh.userData={organKey:organ,source:'NIH 3D / HRA v1.5',sceneNode:mesh.name}});return copy},[scene,sex]);
  return <primitive object={cloned} scale={2.05} position={[0,0,0]} onClick={(e:any)=>{e.stopPropagation();const organ=e.object?.userData?.organKey;if(organ)onOrgan(organ,nodeLaterality(e.object?.name||''),e.object?.name||'unknown')}} userData={{source:'NIH 3D 3DPX-021022/3DPX-020992',sex}}/>;
 }
 function Body({sex,onHover,useFullBody,bodyLoaded,onBodyLoaded}:{sex:BiologicalSex;onHover:(k:string|null)=>void;useFullBody:boolean;bodyLoaded:boolean;onBodyLoaded:()=>void}){
