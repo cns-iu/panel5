@@ -28,7 +28,7 @@ export function OfficialFtuHost({catalog,organLabel,selectedIri,onSelect,fallbac
  const appBase=window.location.hostname.endsWith('github.io')?'/panel5':'';
  const ftuPath=`${appBase}/ftu/`;
  const initialId=selectedIri??catalog['@graph'][0]?.['@id'];
- useEffect(()=>{if(!ready||!initialId||window.location.pathname===ftuPath)return;window.location.assign(`${ftuPath}?id=${encodeURIComponent(initialId)}`)},[ready,initialId,ftuPath]);
+ if(initialId&&typeof window!=='undefined'&&window.location.pathname!==ftuPath){window.history.replaceState({},'',`${ftuPath}?id=${encodeURIComponent(initialId)}`)}
  useEffect(()=>{const el=elementRef.current;if(!el||!ready)return;el.appLinks=`${RESOURCE_BASE}assets/links.yml`;el.appResources=`${RESOURCE_BASE}assets/resources.yml`;el.illustrations=catalog;el.summaries=SUMMARY_URL;el.datasets=DATASET_URL;el.selectedIllustration=selectedIri??catalog['@graph'][0]?.['@id']; const handler=(event:Event)=>{const iri=(event as CustomEvent<string>).detail;if(typeof iri==='string'&&catalog['@graph'].some((item)=>item['@id']===iri))onSelect(iri)};el.addEventListener('illustration-selected',handler);return()=>el.removeEventListener('illustration-selected',handler)},[catalog,onSelect,ready,selectedIri]);
  if(!ready||error||catalog['@graph'].length===0)return <>{fallback}{error&&<p className="ftu-runtime-note">Official HRA FTU bundle unavailable: {error}. Showing the verified catalogue fallback.</p>}</>;
  // The official component initializes its own Angular router as soon as it is
