@@ -37,5 +37,6 @@
 .official-ftu-heading{padding:18px 22px 15px;text-align:center;background:#fff;color:#1f2937}.official-ftu-heading h3{margin:0;font-size:21px;font-weight:800;letter-spacing:-.04em}.official-ftu-heading>div:not(.official-ftu-organ){font-size:16px;margin-top:3px}.official-ftu-organ{margin-top:4px;font-size:21px;font-weight:600;letter-spacing:-.03em}.official-ftu-heading p{margin:12px 0 0;text-align:left;color:#64748b;font-size:10px;line-height:1.5}
 .hero h1{margin-bottom:6px}.hero-level{font-size:18px;color:var(--ink);margin-bottom:18px}.hero-detail{margin-top:4px}
 .hero-level,.expression-level,.official-ftu-heading>div:not(.official-ftu-organ){font-style:italic}
+.hero-level em,.expression-level em,.official-ftu-heading em{display:inline-block;font-style:italic;transform:skewX(-9deg);transform-origin:left center}
 .panel-heading h4{font-size:12px;line-height:1.35}.panel-heading h4 a{color:var(--accent);text-decoration:underline}
 .official-ftu-heading{background:#0b1a2b;color:var(--ink);border-bottom:1px solid var(--line)}.official-ftu-heading>div:not(.official-ftu-organ){color:var(--ink)}.official-ftu-organ{color:var(--ink)}.official-ftu-heading p{color:#96a8bd}
