@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import '@fontsource-variable/nunito-sans/wght.css';
+import '@fontsource-variable/nunito-sans/wght-italic.css';
 import '@fontsource/metropolis/400.css';
 import '@fontsource/metropolis/500.css';
 import '@fontsource/metropolis/600.css';
