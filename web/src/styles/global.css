@@ -59,3 +59,4 @@
 .visualization-pair .expression-panel{min-height:0}
 .visualization-pair .expression-panel .anatomy-model-wrap{flex:1 1 auto;min-height:0}
 .visualization-pair .expression-panel .legend{margin-top:8px}
+.gene-picker label{font-size:11px}
