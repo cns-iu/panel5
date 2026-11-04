@@ -36,6 +36,5 @@ export function OfficialFtuHost({catalog,organLabel,selectedIri,onSelect,fallbac
  // connected. Put it on the /ftu route before React appends the element so its
  // selectedIllustration input opens the detail view instead of the landing page.
  const bindElement=(node:HTMLElement|null)=>{elementRef.current=node as FtuElement|null;if(node){const el=node as FtuElement;el.baseHref=BASE;el.appLinks=`${RESOURCE_BASE}assets/links.yml`;el.appResources=`${RESOURCE_BASE}assets/resources.yml`;el.illustrations=ILLUSTRATIONS_URL;el.summaries=SUMMARY_URL;el.datasets=DATASET_URL;el.selectedIllustration=initialId}};
- const officialUrl=`https://cdn.humanatlas.io/ui--staging/ftu-ui/?id=${encodeURIComponent(initialId??'')}`;
- return <div className="official-ftu-host"><iframe className="official-ftu-frame" src={officialUrl} title={`HRA Functional Tissue Unit Explorer — ${organLabel}`} allow="fullscreen" loading="eager" /></div>;
+ return <div className="official-ftu-host" aria-label={`Functional Tissue Unit Explorer — ${organLabel}`}>{error ? fallback : ready ? createElement('hra-ftu-ui',{ref:bindElement}) : <div className="ftu-runtime-note">Loading Functional Tissue Unit Explorer…</div>}</div>;
 }
