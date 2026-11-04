@@ -1,7 +1,7 @@
 import {type ReactNode} from 'react';
 import type {FtuCatalog} from '../../types/hra';
 
-const BRIDGE_PATH='/ftu-bridge.html';
+const BRIDGE_PATH=typeof window!=='undefined'&&window.location.hostname.endsWith('github.io')?'/panel5/ftu-bridge.html':'/ftu-bridge.html';
 const ENABLED=import.meta.env.VITE_USE_OFFICIAL_FTU!=='false';
 
 export function preloadOfficialFtuBundle(){
