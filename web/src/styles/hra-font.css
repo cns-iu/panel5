@@ -52,3 +52,14 @@ pre,
 .footer-links span {
   font-family: var(--hra-font-mono);
 }
+
+/* HRA level labels use the plain family with real italic glyphs. */
+.hero-level em,
+.expression-level em,
+.official-ftu-heading em {
+  font-family: var(--hra-font-plain) !important;
+  font-style: italic !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+  transform: none !important;
+}
