@@ -1,5 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import '@fontsource-variable/nunito-sans/wght.css';
+import '@fontsource/metropolis/400.css';
+import '@fontsource/metropolis/500.css';
+import '@fontsource/metropolis/600.css';
+import '@fontsource/metropolis/700.css';
+import '@fontsource-variable/roboto-mono/wght.css';
 import App from './app/App';
 import './styles/global.css';
+import './styles/hra-font.css';
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);

@@ -1,0 +1,54 @@
+/* AtlasNG HRA typography: plain text, brand headings, and mono labels. */
+:root {
+  --hra-font-plain: 'Nunito Sans Variable', system-ui, sans-serif;
+  --hra-font-brand: Metropolis, system-ui, sans-serif;
+  --hra-font-mono: 'Roboto Mono', monospace;
+  font-family: var(--hra-font-plain);
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: var(--hra-font-plain);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.brand strong,
+.hero h1,
+.body-panel h3,
+.selection-bar strong,
+.detail-head h3,
+.illustration-preview strong,
+.expression-head h3,
+.expression-title h3,
+.panel-heading h4,
+.official-ftu-heading h3 {
+  font-family: var(--hra-font-brand);
+}
+
+code,
+pre,
+.eyebrow,
+.section-kicker,
+.status-dot,
+.hero-note span:first-child,
+.anatomy-watermark,
+.tooltip,
+.ftu-nav h3 span,
+.source-pill,
+.gene-picker label,
+.provenance,
+.panel-metrics,
+.viewer-actions button,
+.model-tooltip,
+.as-hover-eyebrow,
+.footer-links span {
+  font-family: var(--hra-font-mono);
+}
