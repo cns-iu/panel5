@@ -1,4 +1,808 @@
 {
+  "kidney|NPHS1|female|left": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "left",
+    "geneId": "NPHS1",
+    "geneLabel": "NPHS1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 2.9252692492692316,
+    "max": 5.399999618530273,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "label": "Left kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 3.02756447003235,
+        "nRecords": 8,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": 5.399999618530273,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": 3.753930968046188,
+        "nRecords": 6,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 2.9252692492692316,
+        "nRecords": 63,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 31,
+      "nodesWithData": 16,
+      "nodesWithoutData": 15
+    }
+  },
+  "kidney|SLC34A1|female|left": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "left",
+    "geneId": "SLC34A1",
+    "geneLabel": "SLC34A1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 0.29173574270680547,
+    "max": 0.4955492615699768,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "label": "Left kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 0.4955492615699768,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 0.29173574270680547,
+        "nRecords": 64,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 31,
+      "nodesWithData": 2,
+      "nodesWithoutData": 29
+    }
+  },
+  "kidney|UMOD|female|left": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "left",
+    "geneId": "UMOD",
+    "geneLabel": "UMOD",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 3.689655303955078,
+    "max": 16.287760212758982,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "label": "Left kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_kidney_capsule_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 4.384441874312155,
+        "nRecords": 6,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_hilum_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": 6.094642857142857,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_medulla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_papilla_L_k",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_pyramid_L_k",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_renal_column_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": 4.279351302632016,
+        "nRecords": 19,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#VH_F_outer_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 16.287760212758982,
+        "nRecords": 222,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 31,
+      "nodesWithData": 28,
+      "nodesWithoutData": 3
+    }
+  },
   "kidney|XIAP|female|left": {
     "organKey": "kidney",
     "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary",
@@ -267,6 +1071,762 @@
       "nodesWithoutData": 19
     }
   },
+  "kidney|NPHS1|female|right": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "right",
+    "geneId": "NPHS1",
+    "geneLabel": "NPHS1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 2.9252692492692316,
+    "max": 5.399999618530273,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004539",
+        "label": "Right kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_kidney_capsule_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 3.02756447003235,
+        "nRecords": 8,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_hilum_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": 5.399999618530273,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_outer_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 2.9252692492692316,
+        "nRecords": 63,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_column_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": 3.753930968046188,
+        "nRecords": 6,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_medulla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 29,
+      "nodesWithData": 15,
+      "nodesWithoutData": 14
+    }
+  },
+  "kidney|SLC34A1|female|right": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "right",
+    "geneId": "SLC34A1",
+    "geneLabel": "SLC34A1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 0.29173574270680547,
+    "max": 0.4955492615699768,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004539",
+        "label": "Right kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_kidney_capsule_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 0.4955492615699768,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_hilum_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_outer_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 0.29173574270680547,
+        "nRecords": 64,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_column_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_medulla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 29,
+      "nodesWithData": 2,
+      "nodesWithoutData": 27
+    }
+  },
+  "kidney|UMOD|female|right": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "right",
+    "geneId": "UMOD",
+    "geneLabel": "UMOD",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 3.689655303955078,
+    "max": 16.287760212758982,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004539",
+        "label": "Right kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_kidney_capsule_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 4.384441874312155,
+        "nRecords": 6,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_hilum_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": 6.094642857142857,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_outer_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 16.287760212758982,
+        "nRecords": 222,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_column_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": 4.279351302632016,
+        "nRecords": 19,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_medulla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_papilla_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#VH_F_renal_pyramid_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 29,
+      "nodesWithData": 26,
+      "nodesWithoutData": 3
+    }
+  },
   "kidney|XIAP|female|right": {
     "organKey": "kidney",
     "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary",
@@ -519,6 +2079,714 @@
       "nodesWithoutData": 18
     }
   },
+  "kidney|NPHS1|male|left": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "left",
+    "geneId": "NPHS1",
+    "geneLabel": "NPHS1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 2.9252692492692316,
+    "max": 5.399999618530273,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "label": "Left kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_kidney_capsule_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 3.02756447003235,
+        "nRecords": 8,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_hilum_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": 5.399999618530273,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_column_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": 3.753930968046188,
+        "nRecords": 6,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_outer_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 2.9252692492692316,
+        "nRecords": 63,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_medulla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 27,
+      "nodesWithData": 14,
+      "nodesWithoutData": 13
+    }
+  },
+  "kidney|SLC34A1|male|left": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "left",
+    "geneId": "SLC34A1",
+    "geneLabel": "SLC34A1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 0.29173574270680547,
+    "max": 0.4955492615699768,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "label": "Left kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_kidney_capsule_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 0.4955492615699768,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_hilum_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_column_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_outer_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 0.29173574270680547,
+        "nRecords": 64,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_medulla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 27,
+      "nodesWithData": 2,
+      "nodesWithoutData": 25
+    }
+  },
+  "kidney|UMOD|male|left": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "left",
+    "geneId": "UMOD",
+    "geneLabel": "UMOD",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 3.689655303955078,
+    "max": 16.287760212758982,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "label": "Left kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_kidney_capsule_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 4.384441874312155,
+        "nRecords": 6,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_hilum_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": 6.094642857142857,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_column_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": 4.279351302632016,
+        "nRecords": 19,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_outer_cortex_of_kidney_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 16.287760212758982,
+        "nRecords": 222,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_medulla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_papilla_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#VH_M_renal_pyramid_L_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 27,
+      "nodesWithData": 24,
+      "nodesWithoutData": 3
+    }
+  },
   "kidney|XIAP|male|left": {
     "organKey": "kidney",
     "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary",
@@ -753,6 +3021,762 @@
       "totalNodes": 27,
       "nodesWithData": 10,
       "nodesWithoutData": 17
+    }
+  },
+  "kidney|NPHS1|male|right": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "right",
+    "geneId": "NPHS1",
+    "geneLabel": "NPHS1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 2.9252692492692316,
+    "max": 5.399999618530273,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004539",
+        "label": "Right kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 3.02756447003235,
+        "nRecords": 8,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": 5.399999618530273,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 4.049331419972273,
+        "nRecords": 12,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": 3.753930968046188,
+        "nRecords": 6,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 2.9252692492692316,
+        "nRecords": 63,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 29,
+      "nodesWithData": 15,
+      "nodesWithoutData": 14
+    }
+  },
+  "kidney|SLC34A1|male|right": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "right",
+    "geneId": "SLC34A1",
+    "geneLabel": "SLC34A1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 0.29173574270680547,
+    "max": 0.4955492615699768,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004539",
+        "label": "Right kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 0.4955492615699768,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 0.29173574270680547,
+        "nRecords": 64,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 29,
+      "nodesWithData": 2,
+      "nodesWithoutData": 27
+    }
+  },
+  "kidney|UMOD|male|right": {
+    "organKey": "kidney",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "right",
+    "geneId": "UMOD",
+    "geneLabel": "UMOD",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 3.689655303955078,
+    "max": 16.287760212758982,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004539",
+        "label": "Right kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_kidney_capsule_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002015",
+        "label": "kidney capsule",
+        "meanExpr": 4.384441874312155,
+        "nRecords": 6,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_hilum_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0008716",
+        "label": "hilum of kidney",
+        "meanExpr": 6.094642857142857,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_medulla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "label": "renal medulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_papilla_R_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001228",
+        "label": "renal papilla",
+        "meanExpr": 3.689655303955078,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_a",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_b",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_c",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_d",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_e",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_f",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_g",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_h",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_i",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_pyramid_j",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "label": "renal pyramid",
+        "meanExpr": 7.8397737506391545,
+        "nRecords": 145,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001225",
+        "label": "cortex of kidney",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_renal_column_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "label": "renal column",
+        "meanExpr": 4.279351302632016,
+        "nRecords": 19,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#VH_M_outer_cortex_of_kidney_R",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002189",
+        "label": "outer cortex of kidney",
+        "meanExpr": 16.287760212758982,
+        "nRecords": 222,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 29,
+      "nodesWithData": 26,
+      "nodesWithoutData": 3
     }
   },
   "kidney|XIAP|male|right": {
@@ -1007,6 +4031,114 @@
       "nodesWithoutData": 18
     }
   },
+  "large-intestine|MUC2|female|midline": {
+    "organKey": "large-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "MUC2",
+    "geneLabel": "MUC2",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.765644099879752,
+    "max": 9.160227973798042,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000059",
+        "label": "large intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_hepatic_flexure_of_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0022277",
+        "label": "hepatic flexure of colon",
+        "meanExpr": 9.160227973798042,
+        "nRecords": 5,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_transverse_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001157",
+        "label": "transverse colon",
+        "meanExpr": 2.54434136609532,
+        "nRecords": 14,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ascending_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001156",
+        "label": "ascending colon",
+        "meanExpr": 3.9956134111199297,
+        "nRecords": 17,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_vermiform_appendix",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001154",
+        "label": "vermiform appendix",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_descending_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001158",
+        "label": "descending colon",
+        "meanExpr": 3.078372451335987,
+        "nRecords": 17,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_ileocecal_valve",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000569",
+        "label": "ileocecal valve",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_caecum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001153",
+        "label": "caecum",
+        "meanExpr": 1.765644099879752,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_rectum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001052",
+        "label": "rectum",
+        "meanExpr": 8.04344329154244,
+        "nRecords": 5,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_sigmoid_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001159",
+        "label": "sigmoid colon",
+        "meanExpr": 4.061567823988431,
+        "nRecords": 22,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#VH_F_splenic_flexure_of_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0022276",
+        "label": "splenic flexure of colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 11,
+      "nodesWithData": 7,
+      "nodesWithoutData": 4
+    }
+  },
   "large-intestine|XIAP|female|midline": {
     "organKey": "large-intestine",
     "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary",
@@ -1115,6 +4247,114 @@
       "nodesWithoutData": 7
     }
   },
+  "large-intestine|MUC2|male|midline": {
+    "organKey": "large-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "MUC2",
+    "geneLabel": "MUC2",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.765644099879752,
+    "max": 9.160227973798042,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000059",
+        "label": "large intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ascending_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001156",
+        "label": "ascending colon",
+        "meanExpr": 3.9956134111199297,
+        "nRecords": 17,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_descending_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001158",
+        "label": "descending colon",
+        "meanExpr": 3.078372451335987,
+        "nRecords": 17,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_hepatic_flexure_of_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0022277",
+        "label": "hepatic flexure of colon",
+        "meanExpr": 9.160227973798042,
+        "nRecords": 5,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_rectum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001052",
+        "label": "rectum",
+        "meanExpr": 8.04344329154244,
+        "nRecords": 5,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_sigmoid_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001159",
+        "label": "sigmoid colon",
+        "meanExpr": 4.061567823988431,
+        "nRecords": 22,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_splenic_flexure_of_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0022276",
+        "label": "splenic flexure of colon",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_transverse_colon",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001157",
+        "label": "transverse colon",
+        "meanExpr": 2.54434136609532,
+        "nRecords": 14,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_ileocecal_valve",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0000569",
+        "label": "ileocecal valve",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_caecum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001153",
+        "label": "caecum",
+        "meanExpr": 1.765644099879752,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#VH_M_vermiform_appendix",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001154",
+        "label": "vermiform appendix",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 11,
+      "nodesWithData": 7,
+      "nodesWithoutData": 4
+    }
+  },
   "large-intestine|XIAP|male|midline": {
     "organKey": "large-intestine",
     "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary",
@@ -1221,6 +4461,1614 @@
       "totalNodes": 11,
       "nodesWithData": 4,
       "nodesWithoutData": 7
+    }
+  },
+  "small-intestine|DEFA5|female|midline": {
+    "organKey": "small-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "DEFA5",
+    "geneLabel": "DEFA5",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.451428004673549,
+    "max": 6.28727388381958,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002108",
+        "label": "small intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002114",
+        "label": "duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7206",
+        "label": "superior part of duodenum",
+        "meanExpr": 6.28727388381958,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013644",
+        "label": "duodenal ampulla",
+        "meanExpr": 6.28727388381958,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14928",
+        "label": "descending part of duodenum",
+        "meanExpr": 1.451428004673549,
+        "nRecords": 7,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15077",
+        "label": "sphincter of hepatopancreatic ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14930",
+        "label": "ascending part of duodenum",
+        "meanExpr": 2.5858129262924194,
+        "nRecords": 7,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14929",
+        "label": "horizontal part of duodenum",
+        "meanExpr": 2.5858129262924194,
+        "nRecords": 7,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002115",
+        "label": "jejunum",
+        "meanExpr": 2.918876081277793,
+        "nRecords": 15,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002116",
+        "label": "ileum",
+        "meanExpr": 3.8983813806725394,
+        "nRecords": 5,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14966",
+        "label": "distal part of ileum",
+        "meanExpr": 2.8752323113784626,
+        "nRecords": 10,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 11,
+      "nodesWithData": 8,
+      "nodesWithoutData": 3
+    }
+  },
+  "small-intestine|FABP2|female|midline": {
+    "organKey": "small-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "FABP2",
+    "geneLabel": "FABP2",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.7189781665802,
+    "max": 2.8080874681472774,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002108",
+        "label": "small intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002114",
+        "label": "duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7206",
+        "label": "superior part of duodenum",
+        "meanExpr": 2.0035953521728516,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013644",
+        "label": "duodenal ampulla",
+        "meanExpr": 2.288212537765503,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14928",
+        "label": "descending part of duodenum",
+        "meanExpr": 1.7189781665802,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15077",
+        "label": "sphincter of hepatopancreatic ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14930",
+        "label": "ascending part of duodenum",
+        "meanExpr": 1.7189781665802,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14929",
+        "label": "horizontal part of duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002115",
+        "label": "jejunum",
+        "meanExpr": 1.882566006367023,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002116",
+        "label": "ileum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14966",
+        "label": "distal part of ileum",
+        "meanExpr": 2.8080874681472774,
+        "nRecords": 2,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 11,
+      "nodesWithData": 6,
+      "nodesWithoutData": 5
+    }
+  },
+  "small-intestine|SI|female|midline": {
+    "organKey": "small-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "SI",
+    "geneLabel": "SI",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 2.7587176731654575,
+    "max": 5.486246296571836,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002108",
+        "label": "small intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002114",
+        "label": "duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7206",
+        "label": "superior part of duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013644",
+        "label": "duodenal ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14928",
+        "label": "descending part of duodenum",
+        "meanExpr": 3.185252864693487,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15077",
+        "label": "sphincter of hepatopancreatic ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14930",
+        "label": "ascending part of duodenum",
+        "meanExpr": 5.486246296571836,
+        "nRecords": 9,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14929",
+        "label": "horizontal part of duodenum",
+        "meanExpr": 5.486246296571836,
+        "nRecords": 9,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002115",
+        "label": "jejunum",
+        "meanExpr": 2.7587176731654575,
+        "nRecords": 7,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002116",
+        "label": "ileum",
+        "meanExpr": 3.8157446529881978,
+        "nRecords": 3,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14966",
+        "label": "distal part of ileum",
+        "meanExpr": 3.448893221999218,
+        "nRecords": 5,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 11,
+      "nodesWithData": 6,
+      "nodesWithoutData": 5
+    }
+  },
+  "small-intestine|XIAP|female|midline": {
+    "organKey": "small-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 0.2552498579025269,
+    "max": 1.213145017623901,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002108",
+        "label": "small intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002114",
+        "label": "duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_superior",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7206",
+        "label": "superior part of duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenal_ampulla",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013644",
+        "label": "duodenal ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_descending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14928",
+        "label": "descending part of duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_sphincter_of_heptopancreatic_ampulla",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15077",
+        "label": "sphincter of hepatopancreatic ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_ascending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14930",
+        "label": "ascending part of duodenum",
+        "meanExpr": 0.2552498579025269,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_duodenum_horizontal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14929",
+        "label": "horizontal part of duodenum",
+        "meanExpr": 0.2552498579025269,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_jejenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002115",
+        "label": "jejunum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002116",
+        "label": "ileum",
+        "meanExpr": 1.213145017623901,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#VH_F_ileum_terminal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14966",
+        "label": "distal part of ileum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 11,
+      "nodesWithData": 3,
+      "nodesWithoutData": 8
+    }
+  },
+  "small-intestine|DEFA5|male|midline": {
+    "organKey": "small-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "DEFA5",
+    "geneLabel": "DEFA5",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.451428004673549,
+    "max": 6.28727388381958,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002108",
+        "label": "small intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002116",
+        "label": "ileum",
+        "meanExpr": 3.8983813806725394,
+        "nRecords": 5,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14966",
+        "label": "distal part of ileum",
+        "meanExpr": 2.8752323113784626,
+        "nRecords": 10,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002115",
+        "label": "jejunum",
+        "meanExpr": 2.918876081277793,
+        "nRecords": 15,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002114",
+        "label": "duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14930",
+        "label": "ascending part of duodenum",
+        "meanExpr": 2.5858129262924194,
+        "nRecords": 7,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14928",
+        "label": "descending part of duodenum",
+        "meanExpr": 1.451428004673549,
+        "nRecords": 7,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14929",
+        "label": "horizontal part of duodenum",
+        "meanExpr": 2.5858129262924194,
+        "nRecords": 7,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7206",
+        "label": "superior part of duodenum",
+        "meanExpr": 6.28727388381958,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013644",
+        "label": "duodenal ampulla",
+        "meanExpr": 6.28727388381958,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15077",
+        "label": "sphincter of hepatopancreatic ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004914",
+        "label": "duodenal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 12,
+      "nodesWithData": 8,
+      "nodesWithoutData": 4
+    }
+  },
+  "small-intestine|FABP2|male|midline": {
+    "organKey": "small-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "FABP2",
+    "geneLabel": "FABP2",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.7189781665802,
+    "max": 2.8080874681472774,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002108",
+        "label": "small intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002116",
+        "label": "ileum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14966",
+        "label": "distal part of ileum",
+        "meanExpr": 2.8080874681472774,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002115",
+        "label": "jejunum",
+        "meanExpr": 1.882566006367023,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002114",
+        "label": "duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14930",
+        "label": "ascending part of duodenum",
+        "meanExpr": 1.7189781665802,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14928",
+        "label": "descending part of duodenum",
+        "meanExpr": 1.7189781665802,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14929",
+        "label": "horizontal part of duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7206",
+        "label": "superior part of duodenum",
+        "meanExpr": 2.0035953521728516,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013644",
+        "label": "duodenal ampulla",
+        "meanExpr": 2.288212537765503,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15077",
+        "label": "sphincter of hepatopancreatic ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004914",
+        "label": "duodenal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 12,
+      "nodesWithData": 6,
+      "nodesWithoutData": 6
+    }
+  },
+  "small-intestine|SI|male|midline": {
+    "organKey": "small-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "SI",
+    "geneLabel": "SI",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 2.7587176731654575,
+    "max": 5.486246296571836,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002108",
+        "label": "small intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002116",
+        "label": "ileum",
+        "meanExpr": 3.8157446529881978,
+        "nRecords": 3,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14966",
+        "label": "distal part of ileum",
+        "meanExpr": 3.448893221999218,
+        "nRecords": 5,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002115",
+        "label": "jejunum",
+        "meanExpr": 2.7587176731654575,
+        "nRecords": 7,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002114",
+        "label": "duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14930",
+        "label": "ascending part of duodenum",
+        "meanExpr": 5.486246296571836,
+        "nRecords": 9,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14928",
+        "label": "descending part of duodenum",
+        "meanExpr": 3.185252864693487,
+        "nRecords": 4,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14929",
+        "label": "horizontal part of duodenum",
+        "meanExpr": 5.486246296571836,
+        "nRecords": 9,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7206",
+        "label": "superior part of duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013644",
+        "label": "duodenal ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15077",
+        "label": "sphincter of hepatopancreatic ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004914",
+        "label": "duodenal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 12,
+      "nodesWithData": 6,
+      "nodesWithoutData": 6
+    }
+  },
+  "small-intestine|XIAP|male|midline": {
+    "organKey": "small-intestine",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 0.2552498579025269,
+    "max": 1.213145017623901,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002108",
+        "label": "small intestine",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002116",
+        "label": "ileum",
+        "meanExpr": 1.213145017623901,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_ileum_terminal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14966",
+        "label": "distal part of ileum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_jejunum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002115",
+        "label": "jejunum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002114",
+        "label": "duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_ascending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14930",
+        "label": "ascending part of duodenum",
+        "meanExpr": 0.2552498579025269,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_descending",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14928",
+        "label": "descending part of duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_horizonal",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14929",
+        "label": "horizontal part of duodenum",
+        "meanExpr": 0.2552498579025269,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenum_superior",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma7206",
+        "label": "superior part of duodenum",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_duodenal_ampulla",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0013644",
+        "label": "duodenal ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_sphincter_of_hepatopancreatic_ampulla",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma15077",
+        "label": "sphincter of hepatopancreatic ampulla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#VH_M_papilla_of_santorini",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0004914",
+        "label": "duodenal papilla",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 12,
+      "nodesWithData": 3,
+      "nodesWithoutData": 9
+    }
+  },
+  "skin|KRT10|female|midline": {
+    "organKey": "skin",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/skin-female/v1.5#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "KRT10",
+    "geneLabel": "KRT10",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.07085657119751,
+    "max": 1.07085657119751,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/skin-female/v1.5#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002097",
+        "label": "skin",
+        "meanExpr": 1.07085657119751,
+        "nRecords": 1,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 1,
+      "nodesWithData": 1,
+      "nodesWithoutData": 0
+    }
+  },
+  "skin|TYR|female|midline": {
+    "organKey": "skin",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/skin-female/v1.5#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "TYR",
+    "geneLabel": "TYR",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 2.2309403048020084,
+    "max": 2.2309403048020084,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/skin-female/v1.5#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002097",
+        "label": "skin",
+        "meanExpr": 2.2309403048020084,
+        "nRecords": 5,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 1,
+      "nodesWithData": 1,
+      "nodesWithoutData": 0
+    }
+  },
+  "skin|XIAP|female|midline": {
+    "organKey": "skin",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/skin-female/v1.5#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": null,
+    "max": null,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/skin-female/v1.5#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002097",
+        "label": "skin",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 1,
+      "nodesWithData": 0,
+      "nodesWithoutData": 1
+    }
+  },
+  "skin|KRT10|male|midline": {
+    "organKey": "skin",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/skin-male/v1.4#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "KRT10",
+    "geneLabel": "KRT10",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 1.07085657119751,
+    "max": 1.07085657119751,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/skin-male/v1.4#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002097",
+        "label": "skin",
+        "meanExpr": 1.07085657119751,
+        "nRecords": 1,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 1,
+      "nodesWithData": 1,
+      "nodesWithoutData": 0
+    }
+  },
+  "skin|TYR|male|midline": {
+    "organKey": "skin",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/skin-male/v1.4#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "TYR",
+    "geneLabel": "TYR",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 2.2309403048020084,
+    "max": 2.2309403048020084,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/skin-male/v1.4#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002097",
+        "label": "skin",
+        "meanExpr": 2.2309403048020084,
+        "nRecords": 5,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 1,
+      "nodesWithData": 1,
+      "nodesWithoutData": 0
+    }
+  },
+  "skin|XIAP|male|midline": {
+    "organKey": "skin",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/skin-male/v1.4#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": null,
+    "max": null,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/skin-male/v1.4#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0002097",
+        "label": "skin",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 1,
+      "nodesWithData": 0,
+      "nodesWithoutData": 1
+    }
+  },
+  "pancreas|CPE|female|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "CPE",
+    "geneLabel": "CPE",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 18.12871287128713,
+    "max": 18.12871287128713,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 5,
+      "nodesWithoutData": 1
+    }
+  },
+  "pancreas|EPAS1|female|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "EPAS1",
+    "geneLabel": "EPAS1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 3.110046452610212,
+    "max": 3.110046452610212,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 5,
+      "nodesWithoutData": 1
+    }
+  },
+  "pancreas|SLC30A8|female|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "SLC30A8",
+    "geneLabel": "SLC30A8",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 3.458550920341488,
+    "max": 3.458550920341488,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 5,
+      "nodesWithoutData": 1
+    }
+  },
+  "pancreas|XIAP|female|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+    "modelSex": "female",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": null,
+    "max": null,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 0,
+      "nodesWithoutData": 6
+    }
+  },
+  "pancreas|CPE|male|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "CPE",
+    "geneLabel": "CPE",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 18.12871287128713,
+    "max": 18.12871287128713,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_uncinate_process_of_the_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": 18.12871287128713,
+        "nRecords": 1,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 5,
+      "nodesWithoutData": 1
+    }
+  },
+  "pancreas|EPAS1|male|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "EPAS1",
+    "geneLabel": "EPAS1",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 3.110046452610212,
+    "max": 3.110046452610212,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_uncinate_process_of_the_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": 3.110046452610212,
+        "nRecords": 2,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 5,
+      "nodesWithoutData": 1
+    }
+  },
+  "pancreas|SLC30A8|male|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "SLC30A8",
+    "geneLabel": "SLC30A8",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": 3.458550920341488,
+    "max": 3.458550920341488,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_uncinate_process_of_the_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": 3.458550920341488,
+        "nRecords": 1,
+        "hasData": true
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 5,
+      "nodesWithoutData": 1
+    }
+  },
+  "pancreas|XIAP|male|midline": {
+    "organKey": "pancreas",
+    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+    "modelSex": "male",
+    "laterality": "midline",
+    "geneId": "XIAP",
+    "geneLabel": "XIAP",
+    "expressionCohort": "pooled",
+    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
+    "sourceVersion": "HRApop v1.1",
+    "min": null,
+    "max": null,
+    "nodes": [
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
+        "label": "pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_body_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
+        "label": "body of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_tail_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
+        "label": "tail of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_head_of_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
+        "label": "head of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_neck_of_pancreas",
+        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
+        "label": "neck of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      },
+      {
+        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_uncinate_process_of_the_pancreas",
+        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
+        "label": "uncinate process of pancreas",
+        "meanExpr": null,
+        "nRecords": 0,
+        "hasData": false
+      }
+    ],
+    "coverage": {
+      "totalNodes": 6,
+      "nodesWithData": 0,
+      "nodesWithoutData": 6
     }
   },
   "liver|XIAP|female|midline": {
@@ -2797,142 +7645,6 @@
       "totalNodes": 71,
       "nodesWithData": 1,
       "nodesWithoutData": 70
-    }
-  },
-  "pancreas|XIAP|female|midline": {
-    "organKey": "pancreas",
-    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
-    "modelSex": "female",
-    "laterality": "midline",
-    "geneId": "XIAP",
-    "geneLabel": "XIAP",
-    "expressionCohort": "pooled",
-    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
-    "sourceVersion": "HRApop v1.1",
-    "min": null,
-    "max": null,
-    "nodes": [
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
-        "label": "pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_tail_of_pancreas",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
-        "label": "tail of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_body_of_pancreas",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
-        "label": "body of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_ucinate_process1",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
-        "label": "uncinate process of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_head_of_pancreas",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
-        "label": "head of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#VH_F_neck_of_pancreas",
-        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
-        "label": "neck of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      }
-    ],
-    "coverage": {
-      "totalNodes": 6,
-      "nodesWithData": 0,
-      "nodesWithoutData": 6
-    }
-  },
-  "pancreas|XIAP|male|midline": {
-    "organKey": "pancreas",
-    "referenceOrganIri": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
-    "modelSex": "male",
-    "laterality": "midline",
-    "geneId": "XIAP",
-    "geneLabel": "XIAP",
-    "expressionCohort": "pooled",
-    "aggregation": "Unweighted arithmetic mean of source mean_expr rows by as_id, following as-b.ipynb.",
-    "sourceVersion": "HRApop v1.1",
-    "min": null,
-    "max": null,
-    "nodes": [
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001264",
-        "label": "pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_body_of_pancreas",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001150",
-        "label": "body of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_tail_of_pancreas",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001151",
-        "label": "tail of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_head_of_pancreas",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0001069",
-        "label": "head of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_neck_of_pancreas",
-        "ontologyId": "http://purl.org/sig/ont/fma/fma14517",
-        "label": "neck of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      },
-      {
-        "sceneNodeId": "https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#VH_M_uncinate_process_of_the_pancreas",
-        "ontologyId": "http://purl.obolibrary.org/obo/UBERON_0010373",
-        "label": "uncinate process of pancreas",
-        "meanExpr": null,
-        "nRecords": 0,
-        "hasData": false
-      }
-    ],
-    "coverage": {
-      "totalNodes": 6,
-      "nodesWithData": 0,
-      "nodesWithoutData": 6
     }
   }
 }
