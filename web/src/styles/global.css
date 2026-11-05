@@ -60,3 +60,8 @@
 .visualization-pair .expression-panel .anatomy-model-wrap{flex:1 1 auto;min-height:0}
 .visualization-pair .expression-panel .legend{margin-top:8px}
 .gene-picker label{font-size:11px}
+.expression-panels{grid-template-rows:480px;grid-auto-rows:480px}
+.visualization-pair,.visualization-pair .expression-panel,.association-details{height:480px}
+.visualization-pair .expression-panel{display:flex;flex-direction:column}
+.visualization-pair .expression-panel .anatomy-model-wrap{flex:1 1 auto;min-height:0}
+@media (max-width:1100px){.expression-panels{grid-template-rows:auto;grid-auto-rows:auto}.visualization-pair,.visualization-pair .expression-panel,.association-details{height:auto}}
