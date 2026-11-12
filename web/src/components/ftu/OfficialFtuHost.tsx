@@ -1,7 +1,7 @@
 import {type ReactNode} from 'react';
 import type {FtuCatalog} from '../../types/hra';
 
-const STAGING_FTU_URL='https://cns-iu.github.io/hra-ftu-explorer-supporting-information/iftu-testing/ftu';
+const STAGING_FTU_URL='https://cns-iu.github.io/hra-ftu-explorer-supporting-information/iftu-testing/';
 const ENABLED=import.meta.env.VITE_USE_OFFICIAL_FTU!=='false';
 
 export function preloadOfficialFtuBundle(){
