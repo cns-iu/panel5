@@ -5,26 +5,26 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FTU Explorer</title>
-    <link rel="stylesheet" href="https://cdn.humanatlas.io/ui--staging/ftu-ui/styles.css">
+    <link rel="stylesheet" href="https://cdn.humanatlas.io/ui/ftu-ui/styles.css">
     <style>html,body{margin:0;min-height:100%;background:#fff}hra-ftu-ui{display:block;min-height:900px;width:100%}</style>
   </head>
   <body>
     <hra-ftu-ui id="ftu"></hra-ftu-ui>
     <script>
       (() => {
-        const base='https://cdn.humanatlas.io/ui--staging/ftu-ui/';
+        const base='https://cns-iu.github.io/hra-ftu-explorer-supporting-information/iftu-testing/';
+        const bundle='https://cdn.humanatlas.io/ui/ftu-ui/';
         const id=new URLSearchParams(location.search).get('id') || 'https://purl.humanatlas.io/2d-ftu/large-intestine-crypt-lieberkuhn';
         history.replaceState({},'',`/panel5/ftu?id=${encodeURIComponent(id)}`);
         const el=document.getElementById('ftu');
         el.setAttribute('base-href',base);
         el.setAttribute('app-links',`${base}assets/links.yml`);
         el.setAttribute('app-resources',`${base}assets/resources.yml`);
-        el.setAttribute('datasets',`${base}assets/TEMP/ftu-datasets.jsonld`);
-        el.setAttribute('summaries',`${base}assets/TEMP/ftu-cell-summaries.jsonld`);
-        el.setAttribute('illustrations',`${base}assets/TEMP/data.jsonld`);
+        el.setAttribute('datasets',`${base}assets/ftu-datasets.jsonld`);
+        el.setAttribute('summaries',`${base}assets/ftu-cell-summaries.jsonld`);
         el.setAttribute('selected-illustration',id);
-        const load=(name,type)=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=base+name;s.type=type||'module';s.onload=resolve;s.onerror=reject;document.body.appendChild(s)});
-        load('polyfills.js').then(()=>load('main.js'));
+        const load=(name,type)=>new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=name;s.type=type||'module';s.onload=resolve;s.onerror=reject;document.body.appendChild(s)});
+        load(`${bundle}wc.js`);
       })();
     </script>
   </body>
